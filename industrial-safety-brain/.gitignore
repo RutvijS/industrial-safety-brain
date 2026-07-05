@@ -1,0 +1,34 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables (contains secrets)
+.env
+
+# ===== Node.js =====
+node_modules/
+dist/
+.cache/
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+Desktop.ini

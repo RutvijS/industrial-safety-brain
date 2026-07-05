@@ -1,0 +1,7212 @@
+[
+  {
+    "shift_id": "SHF-0001",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Amit Patel",
+      "Deepak Verma",
+      "Sanjay Tiwari"
+    ],
+    "worker_ids": [
+      "WRK-A01",
+      "WRK-A03",
+      "WRK-A05"
+    ],
+    "start_time": "2025-06-01T06:00:00",
+    "end_time": "2025-06-01T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0004",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Arun Mishra",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B02",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-01T06:00:00",
+    "end_time": "2025-06-01T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0007",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Sunil Kumar",
+      "Vinod Saxena",
+      "Rohit Chauhan"
+    ],
+    "worker_ids": [
+      "WRK-C02",
+      "WRK-C04",
+      "WRK-C05"
+    ],
+    "start_time": "2025-06-01T06:00:00",
+    "end_time": "2025-06-01T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0010",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Pankaj Srivastava",
+      "Gaurav Bhatt",
+      "Nitin Agarwal",
+      "Santosh Mishra"
+    ],
+    "worker_ids": [
+      "WRK-D05",
+      "WRK-D03",
+      "WRK-D01",
+      "WRK-D02"
+    ],
+    "start_time": "2025-06-01T06:00:00",
+    "end_time": "2025-06-01T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0002",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Suresh Yadav",
+      "Amit Patel",
+      "Deepak Verma"
+    ],
+    "worker_ids": [
+      "WRK-A02",
+      "WRK-A01",
+      "WRK-A03"
+    ],
+    "start_time": "2025-06-01T14:00:00",
+    "end_time": "2025-06-01T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0005",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Ravi Shankar",
+      "Arun Mishra",
+      "Kiran Reddy"
+    ],
+    "worker_ids": [
+      "WRK-B05",
+      "WRK-B02",
+      "WRK-B03"
+    ],
+    "start_time": "2025-06-01T14:00:00",
+    "end_time": "2025-06-01T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0008",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Sunil Kumar",
+      "Rohit Chauhan",
+      "Vinod Saxena",
+      "Prakash Mehra"
+    ],
+    "worker_ids": [
+      "WRK-C02",
+      "WRK-C05",
+      "WRK-C04",
+      "WRK-C01"
+    ],
+    "start_time": "2025-06-01T14:00:00",
+    "end_time": "2025-06-01T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0011",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Hemant Jha",
+      "Nitin Agarwal",
+      "Gaurav Bhatt"
+    ],
+    "worker_ids": [
+      "WRK-D04",
+      "WRK-D01",
+      "WRK-D03"
+    ],
+    "start_time": "2025-06-01T14:00:00",
+    "end_time": "2025-06-01T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0003",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Sanjay Tiwari",
+      "Ramesh Gupta",
+      "Amit Patel"
+    ],
+    "worker_ids": [
+      "WRK-A05",
+      "WRK-A04",
+      "WRK-A01"
+    ],
+    "start_time": "2025-06-01T22:00:00",
+    "end_time": "2025-06-02T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0006",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Arun Mishra",
+      "Naveen Joshi",
+      "Kiran Reddy",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B02",
+      "WRK-B04",
+      "WRK-B03",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-01T22:00:00",
+    "end_time": "2025-06-02T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0009",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Vinod Saxena",
+      "Prakash Mehra",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C04",
+      "WRK-C01",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-01T22:00:00",
+    "end_time": "2025-06-02T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0012",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Pankaj Srivastava",
+      "Gaurav Bhatt",
+      "Hemant Jha",
+      "Nitin Agarwal"
+    ],
+    "worker_ids": [
+      "WRK-D05",
+      "WRK-D03",
+      "WRK-D04",
+      "WRK-D01"
+    ],
+    "start_time": "2025-06-01T22:00:00",
+    "end_time": "2025-06-02T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0013",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Amit Patel",
+      "Suresh Yadav",
+      "Ramesh Gupta"
+    ],
+    "worker_ids": [
+      "WRK-A01",
+      "WRK-A02",
+      "WRK-A04"
+    ],
+    "start_time": "2025-06-02T06:00:00",
+    "end_time": "2025-06-02T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0016",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Arun Mishra",
+      "Kiran Reddy",
+      "Naveen Joshi",
+      "Manoj Dubey"
+    ],
+    "worker_ids": [
+      "WRK-B02",
+      "WRK-B03",
+      "WRK-B04",
+      "WRK-B01"
+    ],
+    "start_time": "2025-06-02T06:00:00",
+    "end_time": "2025-06-02T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0019",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Prakash Mehra",
+      "Sunil Kumar",
+      "Rohit Chauhan",
+      "Vinod Saxena"
+    ],
+    "worker_ids": [
+      "WRK-C01",
+      "WRK-C02",
+      "WRK-C05",
+      "WRK-C04"
+    ],
+    "start_time": "2025-06-02T06:00:00",
+    "end_time": "2025-06-02T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0022",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Santosh Mishra",
+      "Gaurav Bhatt",
+      "Nitin Agarwal",
+      "Hemant Jha"
+    ],
+    "worker_ids": [
+      "WRK-D02",
+      "WRK-D03",
+      "WRK-D01",
+      "WRK-D04"
+    ],
+    "start_time": "2025-06-02T06:00:00",
+    "end_time": "2025-06-02T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0014",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Suresh Yadav",
+      "Amit Patel",
+      "Sanjay Tiwari"
+    ],
+    "worker_ids": [
+      "WRK-A02",
+      "WRK-A01",
+      "WRK-A05"
+    ],
+    "start_time": "2025-06-02T14:00:00",
+    "end_time": "2025-06-02T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0017",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Ravi Shankar",
+      "Arun Mishra",
+      "Manoj Dubey"
+    ],
+    "worker_ids": [
+      "WRK-B05",
+      "WRK-B02",
+      "WRK-B01"
+    ],
+    "start_time": "2025-06-02T14:00:00",
+    "end_time": "2025-06-02T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0020",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Ajay Pandey",
+      "Prakash Mehra",
+      "Vinod Saxena",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C03",
+      "WRK-C01",
+      "WRK-C04",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-02T14:00:00",
+    "end_time": "2025-06-02T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0023",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Pankaj Srivastava",
+      "Hemant Jha",
+      "Gaurav Bhatt",
+      "Santosh Mishra"
+    ],
+    "worker_ids": [
+      "WRK-D05",
+      "WRK-D04",
+      "WRK-D03",
+      "WRK-D02"
+    ],
+    "start_time": "2025-06-02T14:00:00",
+    "end_time": "2025-06-02T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0015",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Ramesh Gupta",
+      "Deepak Verma",
+      "Amit Patel",
+      "Suresh Yadav"
+    ],
+    "worker_ids": [
+      "WRK-A04",
+      "WRK-A03",
+      "WRK-A01",
+      "WRK-A02"
+    ],
+    "start_time": "2025-06-02T22:00:00",
+    "end_time": "2025-06-03T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0018",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Naveen Joshi",
+      "Kiran Reddy",
+      "Ravi Shankar",
+      "Manoj Dubey"
+    ],
+    "worker_ids": [
+      "WRK-B04",
+      "WRK-B03",
+      "WRK-B05",
+      "WRK-B01"
+    ],
+    "start_time": "2025-06-02T22:00:00",
+    "end_time": "2025-06-03T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0021",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Vinod Saxena",
+      "Rohit Chauhan",
+      "Ajay Pandey"
+    ],
+    "worker_ids": [
+      "WRK-C04",
+      "WRK-C05",
+      "WRK-C03"
+    ],
+    "start_time": "2025-06-02T22:00:00",
+    "end_time": "2025-06-03T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0024",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Santosh Mishra",
+      "Pankaj Srivastava",
+      "Gaurav Bhatt",
+      "Hemant Jha"
+    ],
+    "worker_ids": [
+      "WRK-D02",
+      "WRK-D05",
+      "WRK-D03",
+      "WRK-D04"
+    ],
+    "start_time": "2025-06-02T22:00:00",
+    "end_time": "2025-06-03T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0025",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Amit Patel",
+      "Sanjay Tiwari",
+      "Ramesh Gupta"
+    ],
+    "worker_ids": [
+      "WRK-A01",
+      "WRK-A05",
+      "WRK-A04"
+    ],
+    "start_time": "2025-06-03T06:00:00",
+    "end_time": "2025-06-03T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0028",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Kiran Reddy",
+      "Naveen Joshi"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B03",
+      "WRK-B04"
+    ],
+    "start_time": "2025-06-03T06:00:00",
+    "end_time": "2025-06-03T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0031",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Ajay Pandey",
+      "Sunil Kumar",
+      "Prakash Mehra"
+    ],
+    "worker_ids": [
+      "WRK-C03",
+      "WRK-C02",
+      "WRK-C01"
+    ],
+    "start_time": "2025-06-03T06:00:00",
+    "end_time": "2025-06-03T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0034",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Santosh Mishra",
+      "Gaurav Bhatt"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D02",
+      "WRK-D03"
+    ],
+    "start_time": "2025-06-03T06:00:00",
+    "end_time": "2025-06-03T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0026",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Ramesh Gupta",
+      "Amit Patel",
+      "Suresh Yadav"
+    ],
+    "worker_ids": [
+      "WRK-A04",
+      "WRK-A01",
+      "WRK-A02"
+    ],
+    "start_time": "2025-06-03T14:00:00",
+    "end_time": "2025-06-03T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0029",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Kiran Reddy",
+      "Arun Mishra",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B03",
+      "WRK-B02",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-03T14:00:00",
+    "end_time": "2025-06-03T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0032",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Sunil Kumar",
+      "Prakash Mehra",
+      "Ajay Pandey",
+      "Rohit Chauhan"
+    ],
+    "worker_ids": [
+      "WRK-C02",
+      "WRK-C01",
+      "WRK-C03",
+      "WRK-C05"
+    ],
+    "start_time": "2025-06-03T14:00:00",
+    "end_time": "2025-06-03T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0035",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Hemant Jha",
+      "Pankaj Srivastava"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D04",
+      "WRK-D05"
+    ],
+    "start_time": "2025-06-03T14:00:00",
+    "end_time": "2025-06-03T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0027",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Sanjay Tiwari",
+      "Ramesh Gupta",
+      "Deepak Verma",
+      "Suresh Yadav"
+    ],
+    "worker_ids": [
+      "WRK-A05",
+      "WRK-A04",
+      "WRK-A03",
+      "WRK-A02"
+    ],
+    "start_time": "2025-06-03T22:00:00",
+    "end_time": "2025-06-04T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0030",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Kiran Reddy",
+      "Naveen Joshi",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B03",
+      "WRK-B04",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-03T22:00:00",
+    "end_time": "2025-06-04T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0033",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Prakash Mehra",
+      "Rohit Chauhan",
+      "Sunil Kumar",
+      "Ajay Pandey"
+    ],
+    "worker_ids": [
+      "WRK-C01",
+      "WRK-C05",
+      "WRK-C02",
+      "WRK-C03"
+    ],
+    "start_time": "2025-06-03T22:00:00",
+    "end_time": "2025-06-04T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0036",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Santosh Mishra",
+      "Hemant Jha",
+      "Gaurav Bhatt"
+    ],
+    "worker_ids": [
+      "WRK-D02",
+      "WRK-D04",
+      "WRK-D03"
+    ],
+    "start_time": "2025-06-03T22:00:00",
+    "end_time": "2025-06-04T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0037",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Deepak Verma",
+      "Ramesh Gupta",
+      "Amit Patel"
+    ],
+    "worker_ids": [
+      "WRK-A03",
+      "WRK-A04",
+      "WRK-A01"
+    ],
+    "start_time": "2025-06-04T06:00:00",
+    "end_time": "2025-06-04T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0040",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Kiran Reddy",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B03",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-04T06:00:00",
+    "end_time": "2025-06-04T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0043",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Ajay Pandey",
+      "Prakash Mehra",
+      "Rohit Chauhan"
+    ],
+    "worker_ids": [
+      "WRK-C03",
+      "WRK-C01",
+      "WRK-C05"
+    ],
+    "start_time": "2025-06-04T06:00:00",
+    "end_time": "2025-06-04T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0046",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Hemant Jha",
+      "Santosh Mishra",
+      "Nitin Agarwal",
+      "Gaurav Bhatt"
+    ],
+    "worker_ids": [
+      "WRK-D04",
+      "WRK-D02",
+      "WRK-D01",
+      "WRK-D03"
+    ],
+    "start_time": "2025-06-04T06:00:00",
+    "end_time": "2025-06-04T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0038",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Deepak Verma",
+      "Ramesh Gupta",
+      "Sanjay Tiwari"
+    ],
+    "worker_ids": [
+      "WRK-A03",
+      "WRK-A04",
+      "WRK-A05"
+    ],
+    "start_time": "2025-06-04T14:00:00",
+    "end_time": "2025-06-04T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0041",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Ravi Shankar",
+      "Arun Mishra",
+      "Manoj Dubey"
+    ],
+    "worker_ids": [
+      "WRK-B05",
+      "WRK-B02",
+      "WRK-B01"
+    ],
+    "start_time": "2025-06-04T14:00:00",
+    "end_time": "2025-06-04T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0044",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Ajay Pandey",
+      "Vinod Saxena",
+      "Prakash Mehra"
+    ],
+    "worker_ids": [
+      "WRK-C03",
+      "WRK-C04",
+      "WRK-C01"
+    ],
+    "start_time": "2025-06-04T14:00:00",
+    "end_time": "2025-06-04T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0047",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Gaurav Bhatt",
+      "Hemant Jha",
+      "Santosh Mishra",
+      "Pankaj Srivastava"
+    ],
+    "worker_ids": [
+      "WRK-D03",
+      "WRK-D04",
+      "WRK-D02",
+      "WRK-D05"
+    ],
+    "start_time": "2025-06-04T14:00:00",
+    "end_time": "2025-06-04T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0039",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Ramesh Gupta",
+      "Sanjay Tiwari",
+      "Amit Patel",
+      "Deepak Verma"
+    ],
+    "worker_ids": [
+      "WRK-A04",
+      "WRK-A05",
+      "WRK-A01",
+      "WRK-A03"
+    ],
+    "start_time": "2025-06-04T22:00:00",
+    "end_time": "2025-06-05T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0042",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Arun Mishra",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B02",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-04T22:00:00",
+    "end_time": "2025-06-05T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0045",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Rohit Chauhan",
+      "Vinod Saxena",
+      "Prakash Mehra"
+    ],
+    "worker_ids": [
+      "WRK-C05",
+      "WRK-C04",
+      "WRK-C01"
+    ],
+    "start_time": "2025-06-04T22:00:00",
+    "end_time": "2025-06-05T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0048",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Pankaj Srivastava",
+      "Santosh Mishra"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D05",
+      "WRK-D02"
+    ],
+    "start_time": "2025-06-04T22:00:00",
+    "end_time": "2025-06-05T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0049",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Amit Patel",
+      "Suresh Yadav",
+      "Sanjay Tiwari",
+      "Deepak Verma"
+    ],
+    "worker_ids": [
+      "WRK-A01",
+      "WRK-A02",
+      "WRK-A05",
+      "WRK-A03"
+    ],
+    "start_time": "2025-06-05T06:00:00",
+    "end_time": "2025-06-05T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0052",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Ravi Shankar",
+      "Manoj Dubey",
+      "Naveen Joshi"
+    ],
+    "worker_ids": [
+      "WRK-B05",
+      "WRK-B01",
+      "WRK-B04"
+    ],
+    "start_time": "2025-06-05T06:00:00",
+    "end_time": "2025-06-05T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0055",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Prakash Mehra",
+      "Vinod Saxena",
+      "Sunil Kumar",
+      "Ajay Pandey"
+    ],
+    "worker_ids": [
+      "WRK-C01",
+      "WRK-C04",
+      "WRK-C02",
+      "WRK-C03"
+    ],
+    "start_time": "2025-06-05T06:00:00",
+    "end_time": "2025-06-05T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0058",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Pankaj Srivastava",
+      "Gaurav Bhatt",
+      "Santosh Mishra"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D05",
+      "WRK-D03",
+      "WRK-D02"
+    ],
+    "start_time": "2025-06-05T06:00:00",
+    "end_time": "2025-06-05T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0050",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Suresh Yadav",
+      "Ramesh Gupta",
+      "Amit Patel",
+      "Sanjay Tiwari"
+    ],
+    "worker_ids": [
+      "WRK-A02",
+      "WRK-A04",
+      "WRK-A01",
+      "WRK-A05"
+    ],
+    "start_time": "2025-06-05T14:00:00",
+    "end_time": "2025-06-05T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0053",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Arun Mishra",
+      "Naveen Joshi",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B02",
+      "WRK-B04",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-05T14:00:00",
+    "end_time": "2025-06-05T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0056",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Vinod Saxena",
+      "Rohit Chauhan",
+      "Prakash Mehra",
+      "Ajay Pandey"
+    ],
+    "worker_ids": [
+      "WRK-C04",
+      "WRK-C05",
+      "WRK-C01",
+      "WRK-C03"
+    ],
+    "start_time": "2025-06-05T14:00:00",
+    "end_time": "2025-06-05T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0059",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Pankaj Srivastava",
+      "Hemant Jha"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D05",
+      "WRK-D04"
+    ],
+    "start_time": "2025-06-05T14:00:00",
+    "end_time": "2025-06-05T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0051",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Suresh Yadav",
+      "Amit Patel",
+      "Sanjay Tiwari",
+      "Ramesh Gupta"
+    ],
+    "worker_ids": [
+      "WRK-A02",
+      "WRK-A01",
+      "WRK-A05",
+      "WRK-A04"
+    ],
+    "start_time": "2025-06-05T22:00:00",
+    "end_time": "2025-06-06T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0054",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Arun Mishra",
+      "Naveen Joshi",
+      "Manoj Dubey",
+      "Kiran Reddy"
+    ],
+    "worker_ids": [
+      "WRK-B02",
+      "WRK-B04",
+      "WRK-B01",
+      "WRK-B03"
+    ],
+    "start_time": "2025-06-05T22:00:00",
+    "end_time": "2025-06-06T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0057",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Sunil Kumar",
+      "Prakash Mehra",
+      "Ajay Pandey",
+      "Vinod Saxena"
+    ],
+    "worker_ids": [
+      "WRK-C02",
+      "WRK-C01",
+      "WRK-C03",
+      "WRK-C04"
+    ],
+    "start_time": "2025-06-05T22:00:00",
+    "end_time": "2025-06-06T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0060",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Pankaj Srivastava",
+      "Nitin Agarwal",
+      "Gaurav Bhatt"
+    ],
+    "worker_ids": [
+      "WRK-D05",
+      "WRK-D01",
+      "WRK-D03"
+    ],
+    "start_time": "2025-06-05T22:00:00",
+    "end_time": "2025-06-06T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0061",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Ramesh Gupta",
+      "Amit Patel",
+      "Deepak Verma"
+    ],
+    "worker_ids": [
+      "WRK-A04",
+      "WRK-A01",
+      "WRK-A03"
+    ],
+    "start_time": "2025-06-06T06:00:00",
+    "end_time": "2025-06-06T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0064",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Kiran Reddy",
+      "Arun Mishra",
+      "Naveen Joshi"
+    ],
+    "worker_ids": [
+      "WRK-B03",
+      "WRK-B02",
+      "WRK-B04"
+    ],
+    "start_time": "2025-06-06T06:00:00",
+    "end_time": "2025-06-06T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0067",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Prakash Mehra",
+      "Sunil Kumar",
+      "Ajay Pandey"
+    ],
+    "worker_ids": [
+      "WRK-C01",
+      "WRK-C02",
+      "WRK-C03"
+    ],
+    "start_time": "2025-06-06T06:00:00",
+    "end_time": "2025-06-06T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0070",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Pankaj Srivastava",
+      "Gaurav Bhatt",
+      "Hemant Jha"
+    ],
+    "worker_ids": [
+      "WRK-D05",
+      "WRK-D03",
+      "WRK-D04"
+    ],
+    "start_time": "2025-06-06T06:00:00",
+    "end_time": "2025-06-06T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0062",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Sanjay Tiwari",
+      "Amit Patel",
+      "Deepak Verma"
+    ],
+    "worker_ids": [
+      "WRK-A05",
+      "WRK-A01",
+      "WRK-A03"
+    ],
+    "start_time": "2025-06-06T14:00:00",
+    "end_time": "2025-06-06T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0065",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Arun Mishra",
+      "Kiran Reddy",
+      "Ravi Shankar",
+      "Naveen Joshi"
+    ],
+    "worker_ids": [
+      "WRK-B02",
+      "WRK-B03",
+      "WRK-B05",
+      "WRK-B04"
+    ],
+    "start_time": "2025-06-06T14:00:00",
+    "end_time": "2025-06-06T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0068",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Sunil Kumar",
+      "Ajay Pandey",
+      "Prakash Mehra",
+      "Vinod Saxena"
+    ],
+    "worker_ids": [
+      "WRK-C02",
+      "WRK-C03",
+      "WRK-C01",
+      "WRK-C04"
+    ],
+    "start_time": "2025-06-06T14:00:00",
+    "end_time": "2025-06-06T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0071",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Santosh Mishra",
+      "Gaurav Bhatt",
+      "Nitin Agarwal"
+    ],
+    "worker_ids": [
+      "WRK-D02",
+      "WRK-D03",
+      "WRK-D01"
+    ],
+    "start_time": "2025-06-06T14:00:00",
+    "end_time": "2025-06-06T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0063",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Ramesh Gupta",
+      "Deepak Verma",
+      "Suresh Yadav"
+    ],
+    "worker_ids": [
+      "WRK-A04",
+      "WRK-A03",
+      "WRK-A02"
+    ],
+    "start_time": "2025-06-06T22:00:00",
+    "end_time": "2025-06-07T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0066",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Naveen Joshi",
+      "Kiran Reddy"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B04",
+      "WRK-B03"
+    ],
+    "start_time": "2025-06-06T22:00:00",
+    "end_time": "2025-06-07T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0069",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Ajay Pandey",
+      "Sunil Kumar",
+      "Vinod Saxena",
+      "Rohit Chauhan"
+    ],
+    "worker_ids": [
+      "WRK-C03",
+      "WRK-C02",
+      "WRK-C04",
+      "WRK-C05"
+    ],
+    "start_time": "2025-06-06T22:00:00",
+    "end_time": "2025-06-07T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0072",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Pankaj Srivastava",
+      "Santosh Mishra",
+      "Hemant Jha"
+    ],
+    "worker_ids": [
+      "WRK-D05",
+      "WRK-D02",
+      "WRK-D04"
+    ],
+    "start_time": "2025-06-06T22:00:00",
+    "end_time": "2025-06-07T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0073",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Sanjay Tiwari",
+      "Suresh Yadav",
+      "Deepak Verma",
+      "Ramesh Gupta"
+    ],
+    "worker_ids": [
+      "WRK-A05",
+      "WRK-A02",
+      "WRK-A03",
+      "WRK-A04"
+    ],
+    "start_time": "2025-06-07T06:00:00",
+    "end_time": "2025-06-07T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0076",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Kiran Reddy",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B03",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-07T06:00:00",
+    "end_time": "2025-06-07T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0079",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Rohit Chauhan",
+      "Prakash Mehra",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C05",
+      "WRK-C01",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-07T06:00:00",
+    "end_time": "2025-06-07T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0082",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Gaurav Bhatt",
+      "Hemant Jha"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D03",
+      "WRK-D04"
+    ],
+    "start_time": "2025-06-07T06:00:00",
+    "end_time": "2025-06-07T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0074",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Deepak Verma",
+      "Ramesh Gupta",
+      "Suresh Yadav"
+    ],
+    "worker_ids": [
+      "WRK-A03",
+      "WRK-A04",
+      "WRK-A02"
+    ],
+    "start_time": "2025-06-07T14:00:00",
+    "end_time": "2025-06-07T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0077",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Arun Mishra",
+      "Naveen Joshi",
+      "Kiran Reddy",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B02",
+      "WRK-B04",
+      "WRK-B03",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-07T14:00:00",
+    "end_time": "2025-06-07T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0080",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Vinod Saxena",
+      "Sunil Kumar",
+      "Prakash Mehra"
+    ],
+    "worker_ids": [
+      "WRK-C04",
+      "WRK-C02",
+      "WRK-C01"
+    ],
+    "start_time": "2025-06-07T14:00:00",
+    "end_time": "2025-06-07T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0083",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Pankaj Srivastava",
+      "Santosh Mishra",
+      "Nitin Agarwal",
+      "Gaurav Bhatt"
+    ],
+    "worker_ids": [
+      "WRK-D05",
+      "WRK-D02",
+      "WRK-D01",
+      "WRK-D03"
+    ],
+    "start_time": "2025-06-07T14:00:00",
+    "end_time": "2025-06-07T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0075",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Amit Patel",
+      "Ramesh Gupta",
+      "Suresh Yadav"
+    ],
+    "worker_ids": [
+      "WRK-A01",
+      "WRK-A04",
+      "WRK-A02"
+    ],
+    "start_time": "2025-06-07T22:00:00",
+    "end_time": "2025-06-08T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0078",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Ravi Shankar",
+      "Kiran Reddy"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B05",
+      "WRK-B03"
+    ],
+    "start_time": "2025-06-07T22:00:00",
+    "end_time": "2025-06-08T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0081",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Ajay Pandey",
+      "Prakash Mehra",
+      "Sunil Kumar",
+      "Vinod Saxena"
+    ],
+    "worker_ids": [
+      "WRK-C03",
+      "WRK-C01",
+      "WRK-C02",
+      "WRK-C04"
+    ],
+    "start_time": "2025-06-07T22:00:00",
+    "end_time": "2025-06-08T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0084",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Hemant Jha",
+      "Nitin Agarwal",
+      "Pankaj Srivastava"
+    ],
+    "worker_ids": [
+      "WRK-D04",
+      "WRK-D01",
+      "WRK-D05"
+    ],
+    "start_time": "2025-06-07T22:00:00",
+    "end_time": "2025-06-08T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0085",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Ramesh Gupta",
+      "Suresh Yadav",
+      "Sanjay Tiwari",
+      "Amit Patel"
+    ],
+    "worker_ids": [
+      "WRK-A04",
+      "WRK-A02",
+      "WRK-A05",
+      "WRK-A01"
+    ],
+    "start_time": "2025-06-08T06:00:00",
+    "end_time": "2025-06-08T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0088",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Arun Mishra",
+      "Ravi Shankar",
+      "Manoj Dubey",
+      "Kiran Reddy"
+    ],
+    "worker_ids": [
+      "WRK-B02",
+      "WRK-B05",
+      "WRK-B01",
+      "WRK-B03"
+    ],
+    "start_time": "2025-06-08T06:00:00",
+    "end_time": "2025-06-08T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0091",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Prakash Mehra",
+      "Ajay Pandey",
+      "Rohit Chauhan"
+    ],
+    "worker_ids": [
+      "WRK-C01",
+      "WRK-C03",
+      "WRK-C05"
+    ],
+    "start_time": "2025-06-08T06:00:00",
+    "end_time": "2025-06-08T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0094",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Pankaj Srivastava",
+      "Santosh Mishra",
+      "Hemant Jha",
+      "Nitin Agarwal"
+    ],
+    "worker_ids": [
+      "WRK-D05",
+      "WRK-D02",
+      "WRK-D04",
+      "WRK-D01"
+    ],
+    "start_time": "2025-06-08T06:00:00",
+    "end_time": "2025-06-08T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0086",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Ramesh Gupta",
+      "Amit Patel",
+      "Suresh Yadav"
+    ],
+    "worker_ids": [
+      "WRK-A04",
+      "WRK-A01",
+      "WRK-A02"
+    ],
+    "start_time": "2025-06-08T14:00:00",
+    "end_time": "2025-06-08T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0089",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Kiran Reddy",
+      "Ravi Shankar",
+      "Manoj Dubey",
+      "Arun Mishra"
+    ],
+    "worker_ids": [
+      "WRK-B03",
+      "WRK-B05",
+      "WRK-B01",
+      "WRK-B02"
+    ],
+    "start_time": "2025-06-08T14:00:00",
+    "end_time": "2025-06-08T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0092",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Prakash Mehra",
+      "Rohit Chauhan",
+      "Ajay Pandey",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C01",
+      "WRK-C05",
+      "WRK-C03",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-08T14:00:00",
+    "end_time": "2025-06-08T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0095",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Santosh Mishra",
+      "Hemant Jha",
+      "Gaurav Bhatt"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D02",
+      "WRK-D04",
+      "WRK-D03"
+    ],
+    "start_time": "2025-06-08T14:00:00",
+    "end_time": "2025-06-08T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0087",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Suresh Yadav",
+      "Ramesh Gupta",
+      "Sanjay Tiwari"
+    ],
+    "worker_ids": [
+      "WRK-A02",
+      "WRK-A04",
+      "WRK-A05"
+    ],
+    "start_time": "2025-06-08T22:00:00",
+    "end_time": "2025-06-09T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0090",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Ravi Shankar",
+      "Naveen Joshi",
+      "Kiran Reddy",
+      "Arun Mishra"
+    ],
+    "worker_ids": [
+      "WRK-B05",
+      "WRK-B04",
+      "WRK-B03",
+      "WRK-B02"
+    ],
+    "start_time": "2025-06-08T22:00:00",
+    "end_time": "2025-06-09T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0093",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Ajay Pandey",
+      "Vinod Saxena",
+      "Rohit Chauhan",
+      "Prakash Mehra"
+    ],
+    "worker_ids": [
+      "WRK-C03",
+      "WRK-C04",
+      "WRK-C05",
+      "WRK-C01"
+    ],
+    "start_time": "2025-06-08T22:00:00",
+    "end_time": "2025-06-09T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0096",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Gaurav Bhatt",
+      "Pankaj Srivastava",
+      "Hemant Jha"
+    ],
+    "worker_ids": [
+      "WRK-D03",
+      "WRK-D05",
+      "WRK-D04"
+    ],
+    "start_time": "2025-06-08T22:00:00",
+    "end_time": "2025-06-09T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0097",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Deepak Verma",
+      "Sanjay Tiwari",
+      "Ramesh Gupta"
+    ],
+    "worker_ids": [
+      "WRK-A03",
+      "WRK-A05",
+      "WRK-A04"
+    ],
+    "start_time": "2025-06-09T06:00:00",
+    "end_time": "2025-06-09T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0100",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Arun Mishra",
+      "Kiran Reddy",
+      "Ravi Shankar",
+      "Manoj Dubey"
+    ],
+    "worker_ids": [
+      "WRK-B02",
+      "WRK-B03",
+      "WRK-B05",
+      "WRK-B01"
+    ],
+    "start_time": "2025-06-09T06:00:00",
+    "end_time": "2025-06-09T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0103",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Sunil Kumar",
+      "Prakash Mehra",
+      "Rohit Chauhan",
+      "Ajay Pandey"
+    ],
+    "worker_ids": [
+      "WRK-C02",
+      "WRK-C01",
+      "WRK-C05",
+      "WRK-C03"
+    ],
+    "start_time": "2025-06-09T06:00:00",
+    "end_time": "2025-06-09T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0106",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Hemant Jha",
+      "Nitin Agarwal",
+      "Santosh Mishra"
+    ],
+    "worker_ids": [
+      "WRK-D04",
+      "WRK-D01",
+      "WRK-D02"
+    ],
+    "start_time": "2025-06-09T06:00:00",
+    "end_time": "2025-06-09T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0098",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Deepak Verma",
+      "Ramesh Gupta",
+      "Sanjay Tiwari",
+      "Suresh Yadav"
+    ],
+    "worker_ids": [
+      "WRK-A03",
+      "WRK-A04",
+      "WRK-A05",
+      "WRK-A02"
+    ],
+    "start_time": "2025-06-09T14:00:00",
+    "end_time": "2025-06-09T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0101",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Kiran Reddy",
+      "Arun Mishra",
+      "Naveen Joshi",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B03",
+      "WRK-B02",
+      "WRK-B04",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-09T14:00:00",
+    "end_time": "2025-06-09T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0104",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Sunil Kumar",
+      "Ajay Pandey",
+      "Prakash Mehra"
+    ],
+    "worker_ids": [
+      "WRK-C02",
+      "WRK-C03",
+      "WRK-C01"
+    ],
+    "start_time": "2025-06-09T14:00:00",
+    "end_time": "2025-06-09T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0107",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Pankaj Srivastava",
+      "Santosh Mishra",
+      "Gaurav Bhatt",
+      "Hemant Jha"
+    ],
+    "worker_ids": [
+      "WRK-D05",
+      "WRK-D02",
+      "WRK-D03",
+      "WRK-D04"
+    ],
+    "start_time": "2025-06-09T14:00:00",
+    "end_time": "2025-06-09T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0099",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Suresh Yadav",
+      "Ramesh Gupta",
+      "Deepak Verma"
+    ],
+    "worker_ids": [
+      "WRK-A02",
+      "WRK-A04",
+      "WRK-A03"
+    ],
+    "start_time": "2025-06-09T22:00:00",
+    "end_time": "2025-06-10T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0102",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Naveen Joshi",
+      "Ravi Shankar",
+      "Kiran Reddy",
+      "Manoj Dubey"
+    ],
+    "worker_ids": [
+      "WRK-B04",
+      "WRK-B05",
+      "WRK-B03",
+      "WRK-B01"
+    ],
+    "start_time": "2025-06-09T22:00:00",
+    "end_time": "2025-06-10T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0105",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Sunil Kumar",
+      "Prakash Mehra",
+      "Vinod Saxena"
+    ],
+    "worker_ids": [
+      "WRK-C02",
+      "WRK-C01",
+      "WRK-C04"
+    ],
+    "start_time": "2025-06-09T22:00:00",
+    "end_time": "2025-06-10T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0108",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Hemant Jha",
+      "Santosh Mishra",
+      "Nitin Agarwal",
+      "Gaurav Bhatt"
+    ],
+    "worker_ids": [
+      "WRK-D04",
+      "WRK-D02",
+      "WRK-D01",
+      "WRK-D03"
+    ],
+    "start_time": "2025-06-09T22:00:00",
+    "end_time": "2025-06-10T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0109",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Ramesh Gupta",
+      "Suresh Yadav",
+      "Amit Patel"
+    ],
+    "worker_ids": [
+      "WRK-A04",
+      "WRK-A02",
+      "WRK-A01"
+    ],
+    "start_time": "2025-06-10T06:00:00",
+    "end_time": "2025-06-10T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0112",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Ravi Shankar",
+      "Naveen Joshi",
+      "Manoj Dubey",
+      "Arun Mishra"
+    ],
+    "worker_ids": [
+      "WRK-B05",
+      "WRK-B04",
+      "WRK-B01",
+      "WRK-B02"
+    ],
+    "start_time": "2025-06-10T06:00:00",
+    "end_time": "2025-06-10T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0115",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Sunil Kumar",
+      "Ajay Pandey",
+      "Rohit Chauhan",
+      "Vinod Saxena"
+    ],
+    "worker_ids": [
+      "WRK-C02",
+      "WRK-C03",
+      "WRK-C05",
+      "WRK-C04"
+    ],
+    "start_time": "2025-06-10T06:00:00",
+    "end_time": "2025-06-10T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0118",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Gaurav Bhatt",
+      "Hemant Jha",
+      "Santosh Mishra",
+      "Nitin Agarwal"
+    ],
+    "worker_ids": [
+      "WRK-D03",
+      "WRK-D04",
+      "WRK-D02",
+      "WRK-D01"
+    ],
+    "start_time": "2025-06-10T06:00:00",
+    "end_time": "2025-06-10T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0110",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Amit Patel",
+      "Suresh Yadav",
+      "Sanjay Tiwari",
+      "Ramesh Gupta"
+    ],
+    "worker_ids": [
+      "WRK-A01",
+      "WRK-A02",
+      "WRK-A05",
+      "WRK-A04"
+    ],
+    "start_time": "2025-06-10T14:00:00",
+    "end_time": "2025-06-10T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0113",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Kiran Reddy",
+      "Arun Mishra",
+      "Ravi Shankar",
+      "Naveen Joshi"
+    ],
+    "worker_ids": [
+      "WRK-B03",
+      "WRK-B02",
+      "WRK-B05",
+      "WRK-B04"
+    ],
+    "start_time": "2025-06-10T14:00:00",
+    "end_time": "2025-06-10T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0116",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Sunil Kumar",
+      "Rohit Chauhan",
+      "Prakash Mehra"
+    ],
+    "worker_ids": [
+      "WRK-C02",
+      "WRK-C05",
+      "WRK-C01"
+    ],
+    "start_time": "2025-06-10T14:00:00",
+    "end_time": "2025-06-10T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0119",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Hemant Jha",
+      "Pankaj Srivastava",
+      "Gaurav Bhatt"
+    ],
+    "worker_ids": [
+      "WRK-D04",
+      "WRK-D05",
+      "WRK-D03"
+    ],
+    "start_time": "2025-06-10T14:00:00",
+    "end_time": "2025-06-10T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0111",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Ramesh Gupta",
+      "Deepak Verma",
+      "Suresh Yadav"
+    ],
+    "worker_ids": [
+      "WRK-A04",
+      "WRK-A03",
+      "WRK-A02"
+    ],
+    "start_time": "2025-06-10T22:00:00",
+    "end_time": "2025-06-11T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0114",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Arun Mishra",
+      "Kiran Reddy",
+      "Ravi Shankar",
+      "Manoj Dubey"
+    ],
+    "worker_ids": [
+      "WRK-B02",
+      "WRK-B03",
+      "WRK-B05",
+      "WRK-B01"
+    ],
+    "start_time": "2025-06-10T22:00:00",
+    "end_time": "2025-06-11T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0117",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Sunil Kumar",
+      "Rohit Chauhan",
+      "Prakash Mehra",
+      "Vinod Saxena"
+    ],
+    "worker_ids": [
+      "WRK-C02",
+      "WRK-C05",
+      "WRK-C01",
+      "WRK-C04"
+    ],
+    "start_time": "2025-06-10T22:00:00",
+    "end_time": "2025-06-11T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0120",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Pankaj Srivastava",
+      "Hemant Jha",
+      "Santosh Mishra"
+    ],
+    "worker_ids": [
+      "WRK-D05",
+      "WRK-D04",
+      "WRK-D02"
+    ],
+    "start_time": "2025-06-10T22:00:00",
+    "end_time": "2025-06-11T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0121",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Deepak Verma",
+      "Sanjay Tiwari",
+      "Suresh Yadav"
+    ],
+    "worker_ids": [
+      "WRK-A03",
+      "WRK-A05",
+      "WRK-A02"
+    ],
+    "start_time": "2025-06-11T06:00:00",
+    "end_time": "2025-06-11T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0124",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Naveen Joshi",
+      "Arun Mishra",
+      "Ravi Shankar",
+      "Manoj Dubey"
+    ],
+    "worker_ids": [
+      "WRK-B04",
+      "WRK-B02",
+      "WRK-B05",
+      "WRK-B01"
+    ],
+    "start_time": "2025-06-11T06:00:00",
+    "end_time": "2025-06-11T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0127",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Vinod Saxena",
+      "Ajay Pandey",
+      "Prakash Mehra",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C04",
+      "WRK-C03",
+      "WRK-C01",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-11T06:00:00",
+    "end_time": "2025-06-11T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0130",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Santosh Mishra",
+      "Nitin Agarwal",
+      "Gaurav Bhatt",
+      "Hemant Jha"
+    ],
+    "worker_ids": [
+      "WRK-D02",
+      "WRK-D01",
+      "WRK-D03",
+      "WRK-D04"
+    ],
+    "start_time": "2025-06-11T06:00:00",
+    "end_time": "2025-06-11T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0122",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Sanjay Tiwari",
+      "Suresh Yadav",
+      "Ramesh Gupta",
+      "Amit Patel"
+    ],
+    "worker_ids": [
+      "WRK-A05",
+      "WRK-A02",
+      "WRK-A04",
+      "WRK-A01"
+    ],
+    "start_time": "2025-06-11T14:00:00",
+    "end_time": "2025-06-11T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0125",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Naveen Joshi",
+      "Manoj Dubey",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B04",
+      "WRK-B01",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-11T14:00:00",
+    "end_time": "2025-06-11T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0128",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Ajay Pandey",
+      "Vinod Saxena",
+      "Sunil Kumar",
+      "Rohit Chauhan"
+    ],
+    "worker_ids": [
+      "WRK-C03",
+      "WRK-C04",
+      "WRK-C02",
+      "WRK-C05"
+    ],
+    "start_time": "2025-06-11T14:00:00",
+    "end_time": "2025-06-11T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0131",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Santosh Mishra",
+      "Pankaj Srivastava",
+      "Nitin Agarwal"
+    ],
+    "worker_ids": [
+      "WRK-D02",
+      "WRK-D05",
+      "WRK-D01"
+    ],
+    "start_time": "2025-06-11T14:00:00",
+    "end_time": "2025-06-11T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0123",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Ramesh Gupta",
+      "Sanjay Tiwari",
+      "Amit Patel",
+      "Suresh Yadav"
+    ],
+    "worker_ids": [
+      "WRK-A04",
+      "WRK-A05",
+      "WRK-A01",
+      "WRK-A02"
+    ],
+    "start_time": "2025-06-11T22:00:00",
+    "end_time": "2025-06-12T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0126",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Arun Mishra",
+      "Naveen Joshi",
+      "Manoj Dubey",
+      "Kiran Reddy"
+    ],
+    "worker_ids": [
+      "WRK-B02",
+      "WRK-B04",
+      "WRK-B01",
+      "WRK-B03"
+    ],
+    "start_time": "2025-06-11T22:00:00",
+    "end_time": "2025-06-12T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0129",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Prakash Mehra",
+      "Vinod Saxena",
+      "Rohit Chauhan",
+      "Ajay Pandey"
+    ],
+    "worker_ids": [
+      "WRK-C01",
+      "WRK-C04",
+      "WRK-C05",
+      "WRK-C03"
+    ],
+    "start_time": "2025-06-11T22:00:00",
+    "end_time": "2025-06-12T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0132",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Santosh Mishra",
+      "Pankaj Srivastava",
+      "Hemant Jha"
+    ],
+    "worker_ids": [
+      "WRK-D02",
+      "WRK-D05",
+      "WRK-D04"
+    ],
+    "start_time": "2025-06-11T22:00:00",
+    "end_time": "2025-06-12T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0133",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Sanjay Tiwari",
+      "Suresh Yadav",
+      "Ramesh Gupta"
+    ],
+    "worker_ids": [
+      "WRK-A05",
+      "WRK-A02",
+      "WRK-A04"
+    ],
+    "start_time": "2025-06-12T06:00:00",
+    "end_time": "2025-06-12T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0136",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Kiran Reddy",
+      "Naveen Joshi",
+      "Arun Mishra"
+    ],
+    "worker_ids": [
+      "WRK-B03",
+      "WRK-B04",
+      "WRK-B02"
+    ],
+    "start_time": "2025-06-12T06:00:00",
+    "end_time": "2025-06-12T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0139",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Rohit Chauhan",
+      "Vinod Saxena",
+      "Ajay Pandey",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C05",
+      "WRK-C04",
+      "WRK-C03",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-12T06:00:00",
+    "end_time": "2025-06-12T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0142",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Santosh Mishra",
+      "Hemant Jha",
+      "Nitin Agarwal",
+      "Pankaj Srivastava"
+    ],
+    "worker_ids": [
+      "WRK-D02",
+      "WRK-D04",
+      "WRK-D01",
+      "WRK-D05"
+    ],
+    "start_time": "2025-06-12T06:00:00",
+    "end_time": "2025-06-12T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0134",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Deepak Verma",
+      "Suresh Yadav",
+      "Sanjay Tiwari",
+      "Amit Patel"
+    ],
+    "worker_ids": [
+      "WRK-A03",
+      "WRK-A02",
+      "WRK-A05",
+      "WRK-A01"
+    ],
+    "start_time": "2025-06-12T14:00:00",
+    "end_time": "2025-06-12T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0137",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Arun Mishra",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B02",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-12T14:00:00",
+    "end_time": "2025-06-12T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0140",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Rohit Chauhan",
+      "Ajay Pandey",
+      "Prakash Mehra"
+    ],
+    "worker_ids": [
+      "WRK-C05",
+      "WRK-C03",
+      "WRK-C01"
+    ],
+    "start_time": "2025-06-12T14:00:00",
+    "end_time": "2025-06-12T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0143",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Hemant Jha",
+      "Pankaj Srivastava",
+      "Gaurav Bhatt",
+      "Santosh Mishra"
+    ],
+    "worker_ids": [
+      "WRK-D04",
+      "WRK-D05",
+      "WRK-D03",
+      "WRK-D02"
+    ],
+    "start_time": "2025-06-12T14:00:00",
+    "end_time": "2025-06-12T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0135",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Deepak Verma",
+      "Amit Patel",
+      "Sanjay Tiwari"
+    ],
+    "worker_ids": [
+      "WRK-A03",
+      "WRK-A01",
+      "WRK-A05"
+    ],
+    "start_time": "2025-06-12T22:00:00",
+    "end_time": "2025-06-13T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0138",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Ravi Shankar",
+      "Manoj Dubey",
+      "Kiran Reddy",
+      "Naveen Joshi"
+    ],
+    "worker_ids": [
+      "WRK-B05",
+      "WRK-B01",
+      "WRK-B03",
+      "WRK-B04"
+    ],
+    "start_time": "2025-06-12T22:00:00",
+    "end_time": "2025-06-13T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0141",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Vinod Saxena",
+      "Prakash Mehra",
+      "Sunil Kumar",
+      "Ajay Pandey"
+    ],
+    "worker_ids": [
+      "WRK-C04",
+      "WRK-C01",
+      "WRK-C02",
+      "WRK-C03"
+    ],
+    "start_time": "2025-06-12T22:00:00",
+    "end_time": "2025-06-13T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0144",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Santosh Mishra",
+      "Nitin Agarwal",
+      "Pankaj Srivastava",
+      "Gaurav Bhatt"
+    ],
+    "worker_ids": [
+      "WRK-D02",
+      "WRK-D01",
+      "WRK-D05",
+      "WRK-D03"
+    ],
+    "start_time": "2025-06-12T22:00:00",
+    "end_time": "2025-06-13T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0145",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Ramesh Gupta",
+      "Sanjay Tiwari",
+      "Suresh Yadav"
+    ],
+    "worker_ids": [
+      "WRK-A04",
+      "WRK-A05",
+      "WRK-A02"
+    ],
+    "start_time": "2025-06-13T06:00:00",
+    "end_time": "2025-06-13T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0148",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Ravi Shankar",
+      "Kiran Reddy",
+      "Naveen Joshi",
+      "Manoj Dubey"
+    ],
+    "worker_ids": [
+      "WRK-B05",
+      "WRK-B03",
+      "WRK-B04",
+      "WRK-B01"
+    ],
+    "start_time": "2025-06-13T06:00:00",
+    "end_time": "2025-06-13T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0151",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Vinod Saxena",
+      "Prakash Mehra",
+      "Rohit Chauhan",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C04",
+      "WRK-C01",
+      "WRK-C05",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-13T06:00:00",
+    "end_time": "2025-06-13T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0154",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Hemant Jha",
+      "Gaurav Bhatt",
+      "Santosh Mishra",
+      "Pankaj Srivastava"
+    ],
+    "worker_ids": [
+      "WRK-D04",
+      "WRK-D03",
+      "WRK-D02",
+      "WRK-D05"
+    ],
+    "start_time": "2025-06-13T06:00:00",
+    "end_time": "2025-06-13T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0146",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Ramesh Gupta",
+      "Deepak Verma",
+      "Amit Patel"
+    ],
+    "worker_ids": [
+      "WRK-A04",
+      "WRK-A03",
+      "WRK-A01"
+    ],
+    "start_time": "2025-06-13T14:00:00",
+    "end_time": "2025-06-13T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0149",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Arun Mishra",
+      "Kiran Reddy"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B02",
+      "WRK-B03"
+    ],
+    "start_time": "2025-06-13T14:00:00",
+    "end_time": "2025-06-13T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0152",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Vinod Saxena",
+      "Sunil Kumar",
+      "Rohit Chauhan"
+    ],
+    "worker_ids": [
+      "WRK-C04",
+      "WRK-C02",
+      "WRK-C05"
+    ],
+    "start_time": "2025-06-13T14:00:00",
+    "end_time": "2025-06-13T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0155",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Santosh Mishra",
+      "Hemant Jha"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D02",
+      "WRK-D04"
+    ],
+    "start_time": "2025-06-13T14:00:00",
+    "end_time": "2025-06-13T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0147",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Suresh Yadav",
+      "Deepak Verma",
+      "Sanjay Tiwari",
+      "Ramesh Gupta"
+    ],
+    "worker_ids": [
+      "WRK-A02",
+      "WRK-A03",
+      "WRK-A05",
+      "WRK-A04"
+    ],
+    "start_time": "2025-06-13T22:00:00",
+    "end_time": "2025-06-14T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0150",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Naveen Joshi",
+      "Arun Mishra",
+      "Kiran Reddy",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B04",
+      "WRK-B02",
+      "WRK-B03",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-13T22:00:00",
+    "end_time": "2025-06-14T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0153",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Vinod Saxena",
+      "Ajay Pandey",
+      "Sunil Kumar",
+      "Rohit Chauhan"
+    ],
+    "worker_ids": [
+      "WRK-C04",
+      "WRK-C03",
+      "WRK-C02",
+      "WRK-C05"
+    ],
+    "start_time": "2025-06-13T22:00:00",
+    "end_time": "2025-06-14T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0156",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Pankaj Srivastava",
+      "Santosh Mishra",
+      "Nitin Agarwal"
+    ],
+    "worker_ids": [
+      "WRK-D05",
+      "WRK-D02",
+      "WRK-D01"
+    ],
+    "start_time": "2025-06-13T22:00:00",
+    "end_time": "2025-06-14T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0157",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Ramesh Gupta",
+      "Deepak Verma",
+      "Sanjay Tiwari"
+    ],
+    "worker_ids": [
+      "WRK-A04",
+      "WRK-A03",
+      "WRK-A05"
+    ],
+    "start_time": "2025-06-14T06:00:00",
+    "end_time": "2025-06-14T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0160",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Ravi Shankar",
+      "Kiran Reddy",
+      "Arun Mishra"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B05",
+      "WRK-B03",
+      "WRK-B02"
+    ],
+    "start_time": "2025-06-14T06:00:00",
+    "end_time": "2025-06-14T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0163",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Prakash Mehra",
+      "Ajay Pandey",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C01",
+      "WRK-C03",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-14T06:00:00",
+    "end_time": "2025-06-14T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0166",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Pankaj Srivastava",
+      "Gaurav Bhatt",
+      "Nitin Agarwal"
+    ],
+    "worker_ids": [
+      "WRK-D05",
+      "WRK-D03",
+      "WRK-D01"
+    ],
+    "start_time": "2025-06-14T06:00:00",
+    "end_time": "2025-06-14T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0158",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Amit Patel",
+      "Suresh Yadav",
+      "Ramesh Gupta",
+      "Sanjay Tiwari"
+    ],
+    "worker_ids": [
+      "WRK-A01",
+      "WRK-A02",
+      "WRK-A04",
+      "WRK-A05"
+    ],
+    "start_time": "2025-06-14T14:00:00",
+    "end_time": "2025-06-14T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0161",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Naveen Joshi",
+      "Manoj Dubey",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B04",
+      "WRK-B01",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-14T14:00:00",
+    "end_time": "2025-06-14T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0164",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Prakash Mehra",
+      "Vinod Saxena",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C01",
+      "WRK-C04",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-14T14:00:00",
+    "end_time": "2025-06-14T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0167",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Hemant Jha",
+      "Gaurav Bhatt"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D04",
+      "WRK-D03"
+    ],
+    "start_time": "2025-06-14T14:00:00",
+    "end_time": "2025-06-14T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0159",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Suresh Yadav",
+      "Deepak Verma",
+      "Amit Patel",
+      "Ramesh Gupta"
+    ],
+    "worker_ids": [
+      "WRK-A02",
+      "WRK-A03",
+      "WRK-A01",
+      "WRK-A04"
+    ],
+    "start_time": "2025-06-14T22:00:00",
+    "end_time": "2025-06-15T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0162",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Naveen Joshi",
+      "Ravi Shankar",
+      "Arun Mishra",
+      "Kiran Reddy"
+    ],
+    "worker_ids": [
+      "WRK-B04",
+      "WRK-B05",
+      "WRK-B02",
+      "WRK-B03"
+    ],
+    "start_time": "2025-06-14T22:00:00",
+    "end_time": "2025-06-15T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0165",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Rohit Chauhan",
+      "Prakash Mehra",
+      "Vinod Saxena"
+    ],
+    "worker_ids": [
+      "WRK-C05",
+      "WRK-C01",
+      "WRK-C04"
+    ],
+    "start_time": "2025-06-14T22:00:00",
+    "end_time": "2025-06-15T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0168",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Pankaj Srivastava",
+      "Hemant Jha",
+      "Santosh Mishra"
+    ],
+    "worker_ids": [
+      "WRK-D05",
+      "WRK-D04",
+      "WRK-D02"
+    ],
+    "start_time": "2025-06-14T22:00:00",
+    "end_time": "2025-06-15T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0169",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Deepak Verma",
+      "Ramesh Gupta",
+      "Suresh Yadav",
+      "Amit Patel"
+    ],
+    "worker_ids": [
+      "WRK-A03",
+      "WRK-A04",
+      "WRK-A02",
+      "WRK-A01"
+    ],
+    "start_time": "2025-06-15T06:00:00",
+    "end_time": "2025-06-15T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0172",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Arun Mishra",
+      "Manoj Dubey",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B02",
+      "WRK-B01",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-15T06:00:00",
+    "end_time": "2025-06-15T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0175",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Prakash Mehra",
+      "Sunil Kumar",
+      "Vinod Saxena",
+      "Rohit Chauhan"
+    ],
+    "worker_ids": [
+      "WRK-C01",
+      "WRK-C02",
+      "WRK-C04",
+      "WRK-C05"
+    ],
+    "start_time": "2025-06-15T06:00:00",
+    "end_time": "2025-06-15T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0178",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Pankaj Srivastava",
+      "Gaurav Bhatt",
+      "Santosh Mishra",
+      "Nitin Agarwal"
+    ],
+    "worker_ids": [
+      "WRK-D05",
+      "WRK-D03",
+      "WRK-D02",
+      "WRK-D01"
+    ],
+    "start_time": "2025-06-15T06:00:00",
+    "end_time": "2025-06-15T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0170",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Suresh Yadav",
+      "Sanjay Tiwari",
+      "Ramesh Gupta"
+    ],
+    "worker_ids": [
+      "WRK-A02",
+      "WRK-A05",
+      "WRK-A04"
+    ],
+    "start_time": "2025-06-15T14:00:00",
+    "end_time": "2025-06-15T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0173",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Ravi Shankar",
+      "Naveen Joshi",
+      "Arun Mishra",
+      "Manoj Dubey"
+    ],
+    "worker_ids": [
+      "WRK-B05",
+      "WRK-B04",
+      "WRK-B02",
+      "WRK-B01"
+    ],
+    "start_time": "2025-06-15T14:00:00",
+    "end_time": "2025-06-15T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0176",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Prakash Mehra",
+      "Sunil Kumar",
+      "Ajay Pandey",
+      "Rohit Chauhan"
+    ],
+    "worker_ids": [
+      "WRK-C01",
+      "WRK-C02",
+      "WRK-C03",
+      "WRK-C05"
+    ],
+    "start_time": "2025-06-15T14:00:00",
+    "end_time": "2025-06-15T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0179",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Gaurav Bhatt",
+      "Hemant Jha",
+      "Santosh Mishra",
+      "Pankaj Srivastava"
+    ],
+    "worker_ids": [
+      "WRK-D03",
+      "WRK-D04",
+      "WRK-D02",
+      "WRK-D05"
+    ],
+    "start_time": "2025-06-15T14:00:00",
+    "end_time": "2025-06-15T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0171",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Suresh Yadav",
+      "Sanjay Tiwari",
+      "Amit Patel"
+    ],
+    "worker_ids": [
+      "WRK-A02",
+      "WRK-A05",
+      "WRK-A01"
+    ],
+    "start_time": "2025-06-15T22:00:00",
+    "end_time": "2025-06-16T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0174",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Kiran Reddy",
+      "Ravi Shankar",
+      "Naveen Joshi"
+    ],
+    "worker_ids": [
+      "WRK-B03",
+      "WRK-B05",
+      "WRK-B04"
+    ],
+    "start_time": "2025-06-15T22:00:00",
+    "end_time": "2025-06-16T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0177",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Sunil Kumar",
+      "Prakash Mehra",
+      "Vinod Saxena",
+      "Ajay Pandey"
+    ],
+    "worker_ids": [
+      "WRK-C02",
+      "WRK-C01",
+      "WRK-C04",
+      "WRK-C03"
+    ],
+    "start_time": "2025-06-15T22:00:00",
+    "end_time": "2025-06-16T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0180",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Pankaj Srivastava",
+      "Santosh Mishra",
+      "Gaurav Bhatt"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D05",
+      "WRK-D02",
+      "WRK-D03"
+    ],
+    "start_time": "2025-06-15T22:00:00",
+    "end_time": "2025-06-16T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0181",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Amit Patel",
+      "Sanjay Tiwari",
+      "Ramesh Gupta",
+      "Deepak Verma"
+    ],
+    "worker_ids": [
+      "WRK-A01",
+      "WRK-A05",
+      "WRK-A04",
+      "WRK-A03"
+    ],
+    "start_time": "2025-06-16T06:00:00",
+    "end_time": "2025-06-16T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0184",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Naveen Joshi",
+      "Arun Mishra",
+      "Kiran Reddy"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B04",
+      "WRK-B02",
+      "WRK-B03"
+    ],
+    "start_time": "2025-06-16T06:00:00",
+    "end_time": "2025-06-16T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0187",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Vinod Saxena",
+      "Prakash Mehra",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C04",
+      "WRK-C01",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-16T06:00:00",
+    "end_time": "2025-06-16T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0190",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Hemant Jha",
+      "Nitin Agarwal",
+      "Pankaj Srivastava",
+      "Santosh Mishra"
+    ],
+    "worker_ids": [
+      "WRK-D04",
+      "WRK-D01",
+      "WRK-D05",
+      "WRK-D02"
+    ],
+    "start_time": "2025-06-16T06:00:00",
+    "end_time": "2025-06-16T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0182",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Sanjay Tiwari",
+      "Amit Patel",
+      "Ramesh Gupta",
+      "Suresh Yadav"
+    ],
+    "worker_ids": [
+      "WRK-A05",
+      "WRK-A01",
+      "WRK-A04",
+      "WRK-A02"
+    ],
+    "start_time": "2025-06-16T14:00:00",
+    "end_time": "2025-06-16T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0185",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Kiran Reddy",
+      "Manoj Dubey",
+      "Naveen Joshi",
+      "Arun Mishra"
+    ],
+    "worker_ids": [
+      "WRK-B03",
+      "WRK-B01",
+      "WRK-B04",
+      "WRK-B02"
+    ],
+    "start_time": "2025-06-16T14:00:00",
+    "end_time": "2025-06-16T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0188",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Ajay Pandey",
+      "Prakash Mehra",
+      "Sunil Kumar",
+      "Vinod Saxena"
+    ],
+    "worker_ids": [
+      "WRK-C03",
+      "WRK-C01",
+      "WRK-C02",
+      "WRK-C04"
+    ],
+    "start_time": "2025-06-16T14:00:00",
+    "end_time": "2025-06-16T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0191",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Gaurav Bhatt",
+      "Hemant Jha",
+      "Pankaj Srivastava"
+    ],
+    "worker_ids": [
+      "WRK-D03",
+      "WRK-D04",
+      "WRK-D05"
+    ],
+    "start_time": "2025-06-16T14:00:00",
+    "end_time": "2025-06-16T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0183",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Deepak Verma",
+      "Suresh Yadav",
+      "Sanjay Tiwari",
+      "Ramesh Gupta"
+    ],
+    "worker_ids": [
+      "WRK-A03",
+      "WRK-A02",
+      "WRK-A05",
+      "WRK-A04"
+    ],
+    "start_time": "2025-06-16T22:00:00",
+    "end_time": "2025-06-17T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0186",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Naveen Joshi",
+      "Kiran Reddy",
+      "Ravi Shankar",
+      "Arun Mishra"
+    ],
+    "worker_ids": [
+      "WRK-B04",
+      "WRK-B03",
+      "WRK-B05",
+      "WRK-B02"
+    ],
+    "start_time": "2025-06-16T22:00:00",
+    "end_time": "2025-06-17T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0189",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Vinod Saxena",
+      "Prakash Mehra",
+      "Rohit Chauhan",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C04",
+      "WRK-C01",
+      "WRK-C05",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-16T22:00:00",
+    "end_time": "2025-06-17T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0192",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Pankaj Srivastava",
+      "Gaurav Bhatt",
+      "Hemant Jha"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D05",
+      "WRK-D03",
+      "WRK-D04"
+    ],
+    "start_time": "2025-06-16T22:00:00",
+    "end_time": "2025-06-17T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0193",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Deepak Verma",
+      "Amit Patel",
+      "Sanjay Tiwari"
+    ],
+    "worker_ids": [
+      "WRK-A03",
+      "WRK-A01",
+      "WRK-A05"
+    ],
+    "start_time": "2025-06-17T06:00:00",
+    "end_time": "2025-06-17T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0196",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Ravi Shankar",
+      "Kiran Reddy",
+      "Arun Mishra",
+      "Naveen Joshi"
+    ],
+    "worker_ids": [
+      "WRK-B05",
+      "WRK-B03",
+      "WRK-B02",
+      "WRK-B04"
+    ],
+    "start_time": "2025-06-17T06:00:00",
+    "end_time": "2025-06-17T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0199",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Ajay Pandey",
+      "Rohit Chauhan",
+      "Prakash Mehra",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C03",
+      "WRK-C05",
+      "WRK-C01",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-17T06:00:00",
+    "end_time": "2025-06-17T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0202",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Gaurav Bhatt",
+      "Santosh Mishra",
+      "Pankaj Srivastava",
+      "Nitin Agarwal"
+    ],
+    "worker_ids": [
+      "WRK-D03",
+      "WRK-D02",
+      "WRK-D05",
+      "WRK-D01"
+    ],
+    "start_time": "2025-06-17T06:00:00",
+    "end_time": "2025-06-17T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0194",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Amit Patel",
+      "Suresh Yadav",
+      "Sanjay Tiwari",
+      "Ramesh Gupta"
+    ],
+    "worker_ids": [
+      "WRK-A01",
+      "WRK-A02",
+      "WRK-A05",
+      "WRK-A04"
+    ],
+    "start_time": "2025-06-17T14:00:00",
+    "end_time": "2025-06-17T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0197",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Arun Mishra",
+      "Naveen Joshi",
+      "Kiran Reddy",
+      "Manoj Dubey"
+    ],
+    "worker_ids": [
+      "WRK-B02",
+      "WRK-B04",
+      "WRK-B03",
+      "WRK-B01"
+    ],
+    "start_time": "2025-06-17T14:00:00",
+    "end_time": "2025-06-17T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0200",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Rohit Chauhan",
+      "Vinod Saxena",
+      "Prakash Mehra",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C05",
+      "WRK-C04",
+      "WRK-C01",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-17T14:00:00",
+    "end_time": "2025-06-17T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0203",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Santosh Mishra",
+      "Hemant Jha",
+      "Nitin Agarwal",
+      "Pankaj Srivastava"
+    ],
+    "worker_ids": [
+      "WRK-D02",
+      "WRK-D04",
+      "WRK-D01",
+      "WRK-D05"
+    ],
+    "start_time": "2025-06-17T14:00:00",
+    "end_time": "2025-06-17T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0195",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Suresh Yadav",
+      "Ramesh Gupta",
+      "Deepak Verma"
+    ],
+    "worker_ids": [
+      "WRK-A02",
+      "WRK-A04",
+      "WRK-A03"
+    ],
+    "start_time": "2025-06-17T22:00:00",
+    "end_time": "2025-06-18T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0198",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Arun Mishra",
+      "Ravi Shankar",
+      "Manoj Dubey",
+      "Naveen Joshi"
+    ],
+    "worker_ids": [
+      "WRK-B02",
+      "WRK-B05",
+      "WRK-B01",
+      "WRK-B04"
+    ],
+    "start_time": "2025-06-17T22:00:00",
+    "end_time": "2025-06-18T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0201",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Ajay Pandey",
+      "Rohit Chauhan",
+      "Vinod Saxena",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C03",
+      "WRK-C05",
+      "WRK-C04",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-17T22:00:00",
+    "end_time": "2025-06-18T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0204",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Hemant Jha",
+      "Pankaj Srivastava",
+      "Gaurav Bhatt",
+      "Nitin Agarwal"
+    ],
+    "worker_ids": [
+      "WRK-D04",
+      "WRK-D05",
+      "WRK-D03",
+      "WRK-D01"
+    ],
+    "start_time": "2025-06-17T22:00:00",
+    "end_time": "2025-06-18T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0205",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Amit Patel",
+      "Suresh Yadav",
+      "Deepak Verma",
+      "Ramesh Gupta"
+    ],
+    "worker_ids": [
+      "WRK-A01",
+      "WRK-A02",
+      "WRK-A03",
+      "WRK-A04"
+    ],
+    "start_time": "2025-06-18T06:00:00",
+    "end_time": "2025-06-18T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0208",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Naveen Joshi",
+      "Kiran Reddy",
+      "Arun Mishra"
+    ],
+    "worker_ids": [
+      "WRK-B04",
+      "WRK-B03",
+      "WRK-B02"
+    ],
+    "start_time": "2025-06-18T06:00:00",
+    "end_time": "2025-06-18T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0211",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Ajay Pandey",
+      "Sunil Kumar",
+      "Rohit Chauhan"
+    ],
+    "worker_ids": [
+      "WRK-C03",
+      "WRK-C02",
+      "WRK-C05"
+    ],
+    "start_time": "2025-06-18T06:00:00",
+    "end_time": "2025-06-18T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0214",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Pankaj Srivastava",
+      "Santosh Mishra",
+      "Hemant Jha"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D05",
+      "WRK-D02",
+      "WRK-D04"
+    ],
+    "start_time": "2025-06-18T06:00:00",
+    "end_time": "2025-06-18T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0206",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Ramesh Gupta",
+      "Amit Patel",
+      "Deepak Verma"
+    ],
+    "worker_ids": [
+      "WRK-A04",
+      "WRK-A01",
+      "WRK-A03"
+    ],
+    "start_time": "2025-06-18T14:00:00",
+    "end_time": "2025-06-18T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0209",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Kiran Reddy",
+      "Naveen Joshi",
+      "Arun Mishra"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B03",
+      "WRK-B04",
+      "WRK-B02"
+    ],
+    "start_time": "2025-06-18T14:00:00",
+    "end_time": "2025-06-18T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0212",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Vinod Saxena",
+      "Prakash Mehra",
+      "Ajay Pandey"
+    ],
+    "worker_ids": [
+      "WRK-C04",
+      "WRK-C01",
+      "WRK-C03"
+    ],
+    "start_time": "2025-06-18T14:00:00",
+    "end_time": "2025-06-18T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0215",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Gaurav Bhatt",
+      "Pankaj Srivastava",
+      "Santosh Mishra",
+      "Nitin Agarwal"
+    ],
+    "worker_ids": [
+      "WRK-D03",
+      "WRK-D05",
+      "WRK-D02",
+      "WRK-D01"
+    ],
+    "start_time": "2025-06-18T14:00:00",
+    "end_time": "2025-06-18T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0207",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Amit Patel",
+      "Suresh Yadav",
+      "Ramesh Gupta",
+      "Sanjay Tiwari"
+    ],
+    "worker_ids": [
+      "WRK-A01",
+      "WRK-A02",
+      "WRK-A04",
+      "WRK-A05"
+    ],
+    "start_time": "2025-06-18T22:00:00",
+    "end_time": "2025-06-19T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0210",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Naveen Joshi",
+      "Manoj Dubey",
+      "Kiran Reddy",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B04",
+      "WRK-B01",
+      "WRK-B03",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-18T22:00:00",
+    "end_time": "2025-06-19T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0213",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Vinod Saxena",
+      "Sunil Kumar",
+      "Ajay Pandey"
+    ],
+    "worker_ids": [
+      "WRK-C04",
+      "WRK-C02",
+      "WRK-C03"
+    ],
+    "start_time": "2025-06-18T22:00:00",
+    "end_time": "2025-06-19T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0216",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Pankaj Srivastava",
+      "Hemant Jha",
+      "Gaurav Bhatt"
+    ],
+    "worker_ids": [
+      "WRK-D05",
+      "WRK-D04",
+      "WRK-D03"
+    ],
+    "start_time": "2025-06-18T22:00:00",
+    "end_time": "2025-06-19T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0217",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Suresh Yadav",
+      "Sanjay Tiwari",
+      "Amit Patel"
+    ],
+    "worker_ids": [
+      "WRK-A02",
+      "WRK-A05",
+      "WRK-A01"
+    ],
+    "start_time": "2025-06-19T06:00:00",
+    "end_time": "2025-06-19T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0220",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Naveen Joshi",
+      "Arun Mishra",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B04",
+      "WRK-B02",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-19T06:00:00",
+    "end_time": "2025-06-19T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0223",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Vinod Saxena",
+      "Rohit Chauhan",
+      "Prakash Mehra"
+    ],
+    "worker_ids": [
+      "WRK-C04",
+      "WRK-C05",
+      "WRK-C01"
+    ],
+    "start_time": "2025-06-19T06:00:00",
+    "end_time": "2025-06-19T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0226",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Pankaj Srivastava",
+      "Gaurav Bhatt",
+      "Santosh Mishra"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D05",
+      "WRK-D03",
+      "WRK-D02"
+    ],
+    "start_time": "2025-06-19T06:00:00",
+    "end_time": "2025-06-19T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0218",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Sanjay Tiwari",
+      "Suresh Yadav",
+      "Ramesh Gupta",
+      "Amit Patel"
+    ],
+    "worker_ids": [
+      "WRK-A05",
+      "WRK-A02",
+      "WRK-A04",
+      "WRK-A01"
+    ],
+    "start_time": "2025-06-19T14:00:00",
+    "end_time": "2025-06-19T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0221",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Naveen Joshi",
+      "Kiran Reddy",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B04",
+      "WRK-B03",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-19T14:00:00",
+    "end_time": "2025-06-19T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0224",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Vinod Saxena",
+      "Ajay Pandey",
+      "Rohit Chauhan"
+    ],
+    "worker_ids": [
+      "WRK-C04",
+      "WRK-C03",
+      "WRK-C05"
+    ],
+    "start_time": "2025-06-19T14:00:00",
+    "end_time": "2025-06-19T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0227",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Santosh Mishra",
+      "Gaurav Bhatt",
+      "Nitin Agarwal",
+      "Hemant Jha"
+    ],
+    "worker_ids": [
+      "WRK-D02",
+      "WRK-D03",
+      "WRK-D01",
+      "WRK-D04"
+    ],
+    "start_time": "2025-06-19T14:00:00",
+    "end_time": "2025-06-19T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0219",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Ramesh Gupta",
+      "Deepak Verma",
+      "Suresh Yadav"
+    ],
+    "worker_ids": [
+      "WRK-A04",
+      "WRK-A03",
+      "WRK-A02"
+    ],
+    "start_time": "2025-06-19T22:00:00",
+    "end_time": "2025-06-20T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0222",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Naveen Joshi",
+      "Kiran Reddy",
+      "Arun Mishra",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B04",
+      "WRK-B03",
+      "WRK-B02",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-19T22:00:00",
+    "end_time": "2025-06-20T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0225",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Ajay Pandey",
+      "Prakash Mehra",
+      "Rohit Chauhan",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C03",
+      "WRK-C01",
+      "WRK-C05",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-19T22:00:00",
+    "end_time": "2025-06-20T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0228",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Santosh Mishra",
+      "Nitin Agarwal",
+      "Gaurav Bhatt",
+      "Hemant Jha"
+    ],
+    "worker_ids": [
+      "WRK-D02",
+      "WRK-D01",
+      "WRK-D03",
+      "WRK-D04"
+    ],
+    "start_time": "2025-06-19T22:00:00",
+    "end_time": "2025-06-20T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0229",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Ramesh Gupta",
+      "Amit Patel",
+      "Deepak Verma",
+      "Suresh Yadav"
+    ],
+    "worker_ids": [
+      "WRK-A04",
+      "WRK-A01",
+      "WRK-A03",
+      "WRK-A02"
+    ],
+    "start_time": "2025-06-20T06:00:00",
+    "end_time": "2025-06-20T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0232",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Arun Mishra",
+      "Kiran Reddy",
+      "Ravi Shankar",
+      "Naveen Joshi"
+    ],
+    "worker_ids": [
+      "WRK-B02",
+      "WRK-B03",
+      "WRK-B05",
+      "WRK-B04"
+    ],
+    "start_time": "2025-06-20T06:00:00",
+    "end_time": "2025-06-20T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0235",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Prakash Mehra",
+      "Ajay Pandey",
+      "Vinod Saxena",
+      "Rohit Chauhan"
+    ],
+    "worker_ids": [
+      "WRK-C01",
+      "WRK-C03",
+      "WRK-C04",
+      "WRK-C05"
+    ],
+    "start_time": "2025-06-20T06:00:00",
+    "end_time": "2025-06-20T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0238",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Pankaj Srivastava",
+      "Santosh Mishra",
+      "Gaurav Bhatt",
+      "Nitin Agarwal"
+    ],
+    "worker_ids": [
+      "WRK-D05",
+      "WRK-D02",
+      "WRK-D03",
+      "WRK-D01"
+    ],
+    "start_time": "2025-06-20T06:00:00",
+    "end_time": "2025-06-20T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0230",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Amit Patel",
+      "Deepak Verma",
+      "Suresh Yadav"
+    ],
+    "worker_ids": [
+      "WRK-A01",
+      "WRK-A03",
+      "WRK-A02"
+    ],
+    "start_time": "2025-06-20T14:00:00",
+    "end_time": "2025-06-20T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0233",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Naveen Joshi",
+      "Ravi Shankar",
+      "Kiran Reddy"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B04",
+      "WRK-B05",
+      "WRK-B03"
+    ],
+    "start_time": "2025-06-20T14:00:00",
+    "end_time": "2025-06-20T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0236",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Ajay Pandey",
+      "Rohit Chauhan",
+      "Vinod Saxena",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C03",
+      "WRK-C05",
+      "WRK-C04",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-20T14:00:00",
+    "end_time": "2025-06-20T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0239",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Gaurav Bhatt",
+      "Hemant Jha",
+      "Nitin Agarwal",
+      "Pankaj Srivastava"
+    ],
+    "worker_ids": [
+      "WRK-D03",
+      "WRK-D04",
+      "WRK-D01",
+      "WRK-D05"
+    ],
+    "start_time": "2025-06-20T14:00:00",
+    "end_time": "2025-06-20T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0231",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Suresh Yadav",
+      "Sanjay Tiwari",
+      "Amit Patel",
+      "Ramesh Gupta"
+    ],
+    "worker_ids": [
+      "WRK-A02",
+      "WRK-A05",
+      "WRK-A01",
+      "WRK-A04"
+    ],
+    "start_time": "2025-06-20T22:00:00",
+    "end_time": "2025-06-21T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0234",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Naveen Joshi",
+      "Kiran Reddy",
+      "Manoj Dubey"
+    ],
+    "worker_ids": [
+      "WRK-B04",
+      "WRK-B03",
+      "WRK-B01"
+    ],
+    "start_time": "2025-06-20T22:00:00",
+    "end_time": "2025-06-21T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0237",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Prakash Mehra",
+      "Sunil Kumar",
+      "Vinod Saxena",
+      "Rohit Chauhan"
+    ],
+    "worker_ids": [
+      "WRK-C01",
+      "WRK-C02",
+      "WRK-C04",
+      "WRK-C05"
+    ],
+    "start_time": "2025-06-20T22:00:00",
+    "end_time": "2025-06-21T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0240",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Gaurav Bhatt",
+      "Santosh Mishra"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D03",
+      "WRK-D02"
+    ],
+    "start_time": "2025-06-20T22:00:00",
+    "end_time": "2025-06-21T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0241",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Amit Patel",
+      "Suresh Yadav",
+      "Deepak Verma"
+    ],
+    "worker_ids": [
+      "WRK-A01",
+      "WRK-A02",
+      "WRK-A03"
+    ],
+    "start_time": "2025-06-21T06:00:00",
+    "end_time": "2025-06-21T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0244",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Ravi Shankar",
+      "Naveen Joshi",
+      "Arun Mishra",
+      "Manoj Dubey"
+    ],
+    "worker_ids": [
+      "WRK-B05",
+      "WRK-B04",
+      "WRK-B02",
+      "WRK-B01"
+    ],
+    "start_time": "2025-06-21T06:00:00",
+    "end_time": "2025-06-21T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0247",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Vinod Saxena",
+      "Ajay Pandey",
+      "Prakash Mehra"
+    ],
+    "worker_ids": [
+      "WRK-C04",
+      "WRK-C03",
+      "WRK-C01"
+    ],
+    "start_time": "2025-06-21T06:00:00",
+    "end_time": "2025-06-21T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0250",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Santosh Mishra",
+      "Pankaj Srivastava",
+      "Gaurav Bhatt",
+      "Nitin Agarwal"
+    ],
+    "worker_ids": [
+      "WRK-D02",
+      "WRK-D05",
+      "WRK-D03",
+      "WRK-D01"
+    ],
+    "start_time": "2025-06-21T06:00:00",
+    "end_time": "2025-06-21T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0242",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Ramesh Gupta",
+      "Sanjay Tiwari",
+      "Suresh Yadav"
+    ],
+    "worker_ids": [
+      "WRK-A04",
+      "WRK-A05",
+      "WRK-A02"
+    ],
+    "start_time": "2025-06-21T14:00:00",
+    "end_time": "2025-06-21T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0245",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Arun Mishra",
+      "Naveen Joshi",
+      "Ravi Shankar",
+      "Manoj Dubey"
+    ],
+    "worker_ids": [
+      "WRK-B02",
+      "WRK-B04",
+      "WRK-B05",
+      "WRK-B01"
+    ],
+    "start_time": "2025-06-21T14:00:00",
+    "end_time": "2025-06-21T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0248",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Vinod Saxena",
+      "Prakash Mehra",
+      "Ajay Pandey"
+    ],
+    "worker_ids": [
+      "WRK-C04",
+      "WRK-C01",
+      "WRK-C03"
+    ],
+    "start_time": "2025-06-21T14:00:00",
+    "end_time": "2025-06-21T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0251",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Pankaj Srivastava",
+      "Santosh Mishra",
+      "Gaurav Bhatt"
+    ],
+    "worker_ids": [
+      "WRK-D05",
+      "WRK-D02",
+      "WRK-D03"
+    ],
+    "start_time": "2025-06-21T14:00:00",
+    "end_time": "2025-06-21T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0243",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Sanjay Tiwari",
+      "Suresh Yadav",
+      "Ramesh Gupta",
+      "Amit Patel"
+    ],
+    "worker_ids": [
+      "WRK-A05",
+      "WRK-A02",
+      "WRK-A04",
+      "WRK-A01"
+    ],
+    "start_time": "2025-06-21T22:00:00",
+    "end_time": "2025-06-22T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0246",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Kiran Reddy",
+      "Naveen Joshi",
+      "Arun Mishra"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B03",
+      "WRK-B04",
+      "WRK-B02"
+    ],
+    "start_time": "2025-06-21T22:00:00",
+    "end_time": "2025-06-22T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0249",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Rohit Chauhan",
+      "Prakash Mehra",
+      "Vinod Saxena"
+    ],
+    "worker_ids": [
+      "WRK-C05",
+      "WRK-C01",
+      "WRK-C04"
+    ],
+    "start_time": "2025-06-21T22:00:00",
+    "end_time": "2025-06-22T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0252",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Santosh Mishra",
+      "Gaurav Bhatt",
+      "Nitin Agarwal"
+    ],
+    "worker_ids": [
+      "WRK-D02",
+      "WRK-D03",
+      "WRK-D01"
+    ],
+    "start_time": "2025-06-21T22:00:00",
+    "end_time": "2025-06-22T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0253",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Deepak Verma",
+      "Suresh Yadav",
+      "Amit Patel"
+    ],
+    "worker_ids": [
+      "WRK-A03",
+      "WRK-A02",
+      "WRK-A01"
+    ],
+    "start_time": "2025-06-22T06:00:00",
+    "end_time": "2025-06-22T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0256",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Arun Mishra",
+      "Naveen Joshi",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B02",
+      "WRK-B04",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-22T06:00:00",
+    "end_time": "2025-06-22T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0259",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Vinod Saxena",
+      "Sunil Kumar",
+      "Ajay Pandey"
+    ],
+    "worker_ids": [
+      "WRK-C04",
+      "WRK-C02",
+      "WRK-C03"
+    ],
+    "start_time": "2025-06-22T06:00:00",
+    "end_time": "2025-06-22T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0262",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Hemant Jha",
+      "Gaurav Bhatt",
+      "Santosh Mishra"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D04",
+      "WRK-D03",
+      "WRK-D02"
+    ],
+    "start_time": "2025-06-22T06:00:00",
+    "end_time": "2025-06-22T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0254",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Suresh Yadav",
+      "Amit Patel",
+      "Deepak Verma",
+      "Ramesh Gupta"
+    ],
+    "worker_ids": [
+      "WRK-A02",
+      "WRK-A01",
+      "WRK-A03",
+      "WRK-A04"
+    ],
+    "start_time": "2025-06-22T14:00:00",
+    "end_time": "2025-06-22T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0257",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Naveen Joshi",
+      "Manoj Dubey",
+      "Kiran Reddy"
+    ],
+    "worker_ids": [
+      "WRK-B04",
+      "WRK-B01",
+      "WRK-B03"
+    ],
+    "start_time": "2025-06-22T14:00:00",
+    "end_time": "2025-06-22T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0260",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Rohit Chauhan",
+      "Ajay Pandey",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C05",
+      "WRK-C03",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-22T14:00:00",
+    "end_time": "2025-06-22T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0263",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Gaurav Bhatt",
+      "Hemant Jha"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D03",
+      "WRK-D04"
+    ],
+    "start_time": "2025-06-22T14:00:00",
+    "end_time": "2025-06-22T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0255",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Amit Patel",
+      "Deepak Verma",
+      "Sanjay Tiwari"
+    ],
+    "worker_ids": [
+      "WRK-A01",
+      "WRK-A03",
+      "WRK-A05"
+    ],
+    "start_time": "2025-06-22T22:00:00",
+    "end_time": "2025-06-23T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0258",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Naveen Joshi",
+      "Ravi Shankar",
+      "Arun Mishra"
+    ],
+    "worker_ids": [
+      "WRK-B04",
+      "WRK-B05",
+      "WRK-B02"
+    ],
+    "start_time": "2025-06-22T22:00:00",
+    "end_time": "2025-06-23T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0261",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Prakash Mehra",
+      "Vinod Saxena",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C01",
+      "WRK-C04",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-22T22:00:00",
+    "end_time": "2025-06-23T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0264",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Santosh Mishra",
+      "Hemant Jha"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D02",
+      "WRK-D04"
+    ],
+    "start_time": "2025-06-22T22:00:00",
+    "end_time": "2025-06-23T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0265",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Ramesh Gupta",
+      "Deepak Verma",
+      "Suresh Yadav",
+      "Sanjay Tiwari"
+    ],
+    "worker_ids": [
+      "WRK-A04",
+      "WRK-A03",
+      "WRK-A02",
+      "WRK-A05"
+    ],
+    "start_time": "2025-06-23T06:00:00",
+    "end_time": "2025-06-23T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0268",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Naveen Joshi",
+      "Manoj Dubey",
+      "Arun Mishra",
+      "Kiran Reddy"
+    ],
+    "worker_ids": [
+      "WRK-B04",
+      "WRK-B01",
+      "WRK-B02",
+      "WRK-B03"
+    ],
+    "start_time": "2025-06-23T06:00:00",
+    "end_time": "2025-06-23T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0271",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Prakash Mehra",
+      "Ajay Pandey",
+      "Rohit Chauhan",
+      "Vinod Saxena"
+    ],
+    "worker_ids": [
+      "WRK-C01",
+      "WRK-C03",
+      "WRK-C05",
+      "WRK-C04"
+    ],
+    "start_time": "2025-06-23T06:00:00",
+    "end_time": "2025-06-23T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0274",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Pankaj Srivastava",
+      "Santosh Mishra",
+      "Nitin Agarwal"
+    ],
+    "worker_ids": [
+      "WRK-D05",
+      "WRK-D02",
+      "WRK-D01"
+    ],
+    "start_time": "2025-06-23T06:00:00",
+    "end_time": "2025-06-23T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0266",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Amit Patel",
+      "Suresh Yadav",
+      "Ramesh Gupta"
+    ],
+    "worker_ids": [
+      "WRK-A01",
+      "WRK-A02",
+      "WRK-A04"
+    ],
+    "start_time": "2025-06-23T14:00:00",
+    "end_time": "2025-06-23T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0269",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Kiran Reddy",
+      "Ravi Shankar",
+      "Manoj Dubey",
+      "Arun Mishra"
+    ],
+    "worker_ids": [
+      "WRK-B03",
+      "WRK-B05",
+      "WRK-B01",
+      "WRK-B02"
+    ],
+    "start_time": "2025-06-23T14:00:00",
+    "end_time": "2025-06-23T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0272",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Prakash Mehra",
+      "Vinod Saxena",
+      "Sunil Kumar",
+      "Ajay Pandey"
+    ],
+    "worker_ids": [
+      "WRK-C01",
+      "WRK-C04",
+      "WRK-C02",
+      "WRK-C03"
+    ],
+    "start_time": "2025-06-23T14:00:00",
+    "end_time": "2025-06-23T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0275",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Santosh Mishra",
+      "Nitin Agarwal",
+      "Pankaj Srivastava",
+      "Gaurav Bhatt"
+    ],
+    "worker_ids": [
+      "WRK-D02",
+      "WRK-D01",
+      "WRK-D05",
+      "WRK-D03"
+    ],
+    "start_time": "2025-06-23T14:00:00",
+    "end_time": "2025-06-23T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0267",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Suresh Yadav",
+      "Ramesh Gupta",
+      "Sanjay Tiwari",
+      "Deepak Verma"
+    ],
+    "worker_ids": [
+      "WRK-A02",
+      "WRK-A04",
+      "WRK-A05",
+      "WRK-A03"
+    ],
+    "start_time": "2025-06-23T22:00:00",
+    "end_time": "2025-06-24T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0270",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Ravi Shankar",
+      "Naveen Joshi"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B05",
+      "WRK-B04"
+    ],
+    "start_time": "2025-06-23T22:00:00",
+    "end_time": "2025-06-24T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0273",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Ajay Pandey",
+      "Rohit Chauhan",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C03",
+      "WRK-C05",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-23T22:00:00",
+    "end_time": "2025-06-24T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0276",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Gaurav Bhatt",
+      "Santosh Mishra",
+      "Hemant Jha"
+    ],
+    "worker_ids": [
+      "WRK-D03",
+      "WRK-D02",
+      "WRK-D04"
+    ],
+    "start_time": "2025-06-23T22:00:00",
+    "end_time": "2025-06-24T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0277",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Sanjay Tiwari",
+      "Deepak Verma",
+      "Amit Patel"
+    ],
+    "worker_ids": [
+      "WRK-A05",
+      "WRK-A03",
+      "WRK-A01"
+    ],
+    "start_time": "2025-06-24T06:00:00",
+    "end_time": "2025-06-24T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0280",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Arun Mishra",
+      "Manoj Dubey",
+      "Naveen Joshi"
+    ],
+    "worker_ids": [
+      "WRK-B02",
+      "WRK-B01",
+      "WRK-B04"
+    ],
+    "start_time": "2025-06-24T06:00:00",
+    "end_time": "2025-06-24T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0283",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Prakash Mehra",
+      "Sunil Kumar",
+      "Rohit Chauhan"
+    ],
+    "worker_ids": [
+      "WRK-C01",
+      "WRK-C02",
+      "WRK-C05"
+    ],
+    "start_time": "2025-06-24T06:00:00",
+    "end_time": "2025-06-24T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0286",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Pankaj Srivastava",
+      "Nitin Agarwal",
+      "Santosh Mishra"
+    ],
+    "worker_ids": [
+      "WRK-D05",
+      "WRK-D01",
+      "WRK-D02"
+    ],
+    "start_time": "2025-06-24T06:00:00",
+    "end_time": "2025-06-24T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0278",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Deepak Verma",
+      "Sanjay Tiwari",
+      "Suresh Yadav"
+    ],
+    "worker_ids": [
+      "WRK-A03",
+      "WRK-A05",
+      "WRK-A02"
+    ],
+    "start_time": "2025-06-24T14:00:00",
+    "end_time": "2025-06-24T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0281",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Naveen Joshi",
+      "Ravi Shankar",
+      "Arun Mishra"
+    ],
+    "worker_ids": [
+      "WRK-B04",
+      "WRK-B05",
+      "WRK-B02"
+    ],
+    "start_time": "2025-06-24T14:00:00",
+    "end_time": "2025-06-24T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0284",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Prakash Mehra",
+      "Ajay Pandey",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C01",
+      "WRK-C03",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-24T14:00:00",
+    "end_time": "2025-06-24T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0287",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Gaurav Bhatt",
+      "Hemant Jha",
+      "Santosh Mishra"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D03",
+      "WRK-D04",
+      "WRK-D02"
+    ],
+    "start_time": "2025-06-24T14:00:00",
+    "end_time": "2025-06-24T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0279",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Amit Patel",
+      "Suresh Yadav",
+      "Sanjay Tiwari",
+      "Ramesh Gupta"
+    ],
+    "worker_ids": [
+      "WRK-A01",
+      "WRK-A02",
+      "WRK-A05",
+      "WRK-A04"
+    ],
+    "start_time": "2025-06-24T22:00:00",
+    "end_time": "2025-06-25T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0282",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Arun Mishra",
+      "Kiran Reddy",
+      "Ravi Shankar",
+      "Naveen Joshi"
+    ],
+    "worker_ids": [
+      "WRK-B02",
+      "WRK-B03",
+      "WRK-B05",
+      "WRK-B04"
+    ],
+    "start_time": "2025-06-24T22:00:00",
+    "end_time": "2025-06-25T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0285",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Vinod Saxena",
+      "Rohit Chauhan",
+      "Sunil Kumar",
+      "Ajay Pandey"
+    ],
+    "worker_ids": [
+      "WRK-C04",
+      "WRK-C05",
+      "WRK-C02",
+      "WRK-C03"
+    ],
+    "start_time": "2025-06-24T22:00:00",
+    "end_time": "2025-06-25T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0288",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Santosh Mishra",
+      "Hemant Jha",
+      "Pankaj Srivastava"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D02",
+      "WRK-D04",
+      "WRK-D05"
+    ],
+    "start_time": "2025-06-24T22:00:00",
+    "end_time": "2025-06-25T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0289",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Suresh Yadav",
+      "Deepak Verma",
+      "Amit Patel"
+    ],
+    "worker_ids": [
+      "WRK-A02",
+      "WRK-A03",
+      "WRK-A01"
+    ],
+    "start_time": "2025-06-25T06:00:00",
+    "end_time": "2025-06-25T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0292",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Arun Mishra",
+      "Ravi Shankar",
+      "Naveen Joshi",
+      "Manoj Dubey"
+    ],
+    "worker_ids": [
+      "WRK-B02",
+      "WRK-B05",
+      "WRK-B04",
+      "WRK-B01"
+    ],
+    "start_time": "2025-06-25T06:00:00",
+    "end_time": "2025-06-25T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0295",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Rohit Chauhan",
+      "Vinod Saxena",
+      "Ajay Pandey",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C05",
+      "WRK-C04",
+      "WRK-C03",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-25T06:00:00",
+    "end_time": "2025-06-25T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0298",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Hemant Jha",
+      "Pankaj Srivastava",
+      "Gaurav Bhatt"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D04",
+      "WRK-D05",
+      "WRK-D03"
+    ],
+    "start_time": "2025-06-25T06:00:00",
+    "end_time": "2025-06-25T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0290",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Deepak Verma",
+      "Sanjay Tiwari",
+      "Suresh Yadav"
+    ],
+    "worker_ids": [
+      "WRK-A03",
+      "WRK-A05",
+      "WRK-A02"
+    ],
+    "start_time": "2025-06-25T14:00:00",
+    "end_time": "2025-06-25T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0293",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Naveen Joshi",
+      "Kiran Reddy",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B04",
+      "WRK-B03",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-25T14:00:00",
+    "end_time": "2025-06-25T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0296",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Prakash Mehra",
+      "Vinod Saxena",
+      "Rohit Chauhan",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C01",
+      "WRK-C04",
+      "WRK-C05",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-25T14:00:00",
+    "end_time": "2025-06-25T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0299",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Pankaj Srivastava",
+      "Hemant Jha",
+      "Gaurav Bhatt",
+      "Nitin Agarwal"
+    ],
+    "worker_ids": [
+      "WRK-D05",
+      "WRK-D04",
+      "WRK-D03",
+      "WRK-D01"
+    ],
+    "start_time": "2025-06-25T14:00:00",
+    "end_time": "2025-06-25T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0291",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Amit Patel",
+      "Ramesh Gupta",
+      "Deepak Verma"
+    ],
+    "worker_ids": [
+      "WRK-A01",
+      "WRK-A04",
+      "WRK-A03"
+    ],
+    "start_time": "2025-06-25T22:00:00",
+    "end_time": "2025-06-26T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0294",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Naveen Joshi",
+      "Ravi Shankar",
+      "Arun Mishra"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B04",
+      "WRK-B05",
+      "WRK-B02"
+    ],
+    "start_time": "2025-06-25T22:00:00",
+    "end_time": "2025-06-26T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0297",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Rohit Chauhan",
+      "Vinod Saxena",
+      "Ajay Pandey"
+    ],
+    "worker_ids": [
+      "WRK-C05",
+      "WRK-C04",
+      "WRK-C03"
+    ],
+    "start_time": "2025-06-25T22:00:00",
+    "end_time": "2025-06-26T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0300",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Gaurav Bhatt",
+      "Pankaj Srivastava",
+      "Nitin Agarwal",
+      "Santosh Mishra"
+    ],
+    "worker_ids": [
+      "WRK-D03",
+      "WRK-D05",
+      "WRK-D01",
+      "WRK-D02"
+    ],
+    "start_time": "2025-06-25T22:00:00",
+    "end_time": "2025-06-26T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0301",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Amit Patel",
+      "Sanjay Tiwari",
+      "Deepak Verma"
+    ],
+    "worker_ids": [
+      "WRK-A01",
+      "WRK-A05",
+      "WRK-A03"
+    ],
+    "start_time": "2025-06-26T06:00:00",
+    "end_time": "2025-06-26T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0304",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Arun Mishra",
+      "Ravi Shankar",
+      "Kiran Reddy",
+      "Manoj Dubey"
+    ],
+    "worker_ids": [
+      "WRK-B02",
+      "WRK-B05",
+      "WRK-B03",
+      "WRK-B01"
+    ],
+    "start_time": "2025-06-26T06:00:00",
+    "end_time": "2025-06-26T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0307",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Vinod Saxena",
+      "Prakash Mehra",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C04",
+      "WRK-C01",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-26T06:00:00",
+    "end_time": "2025-06-26T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0310",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Pankaj Srivastava",
+      "Santosh Mishra",
+      "Gaurav Bhatt"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D05",
+      "WRK-D02",
+      "WRK-D03"
+    ],
+    "start_time": "2025-06-26T06:00:00",
+    "end_time": "2025-06-26T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0302",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Deepak Verma",
+      "Sanjay Tiwari",
+      "Ramesh Gupta"
+    ],
+    "worker_ids": [
+      "WRK-A03",
+      "WRK-A05",
+      "WRK-A04"
+    ],
+    "start_time": "2025-06-26T14:00:00",
+    "end_time": "2025-06-26T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0305",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Arun Mishra",
+      "Naveen Joshi",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B02",
+      "WRK-B04",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-26T14:00:00",
+    "end_time": "2025-06-26T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0308",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Ajay Pandey",
+      "Rohit Chauhan",
+      "Vinod Saxena",
+      "Prakash Mehra"
+    ],
+    "worker_ids": [
+      "WRK-C03",
+      "WRK-C05",
+      "WRK-C04",
+      "WRK-C01"
+    ],
+    "start_time": "2025-06-26T14:00:00",
+    "end_time": "2025-06-26T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0311",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Hemant Jha",
+      "Santosh Mishra"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D04",
+      "WRK-D02"
+    ],
+    "start_time": "2025-06-26T14:00:00",
+    "end_time": "2025-06-26T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0303",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Suresh Yadav",
+      "Amit Patel",
+      "Ramesh Gupta"
+    ],
+    "worker_ids": [
+      "WRK-A02",
+      "WRK-A01",
+      "WRK-A04"
+    ],
+    "start_time": "2025-06-26T22:00:00",
+    "end_time": "2025-06-27T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0306",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Ravi Shankar",
+      "Kiran Reddy",
+      "Naveen Joshi",
+      "Arun Mishra"
+    ],
+    "worker_ids": [
+      "WRK-B05",
+      "WRK-B03",
+      "WRK-B04",
+      "WRK-B02"
+    ],
+    "start_time": "2025-06-26T22:00:00",
+    "end_time": "2025-06-27T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0309",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Rohit Chauhan",
+      "Prakash Mehra",
+      "Sunil Kumar",
+      "Ajay Pandey"
+    ],
+    "worker_ids": [
+      "WRK-C05",
+      "WRK-C01",
+      "WRK-C02",
+      "WRK-C03"
+    ],
+    "start_time": "2025-06-26T22:00:00",
+    "end_time": "2025-06-27T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0312",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Hemant Jha",
+      "Santosh Mishra",
+      "Pankaj Srivastava"
+    ],
+    "worker_ids": [
+      "WRK-D04",
+      "WRK-D02",
+      "WRK-D05"
+    ],
+    "start_time": "2025-06-26T22:00:00",
+    "end_time": "2025-06-27T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0313",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Sanjay Tiwari",
+      "Suresh Yadav",
+      "Amit Patel",
+      "Ramesh Gupta"
+    ],
+    "worker_ids": [
+      "WRK-A05",
+      "WRK-A02",
+      "WRK-A01",
+      "WRK-A04"
+    ],
+    "start_time": "2025-06-27T06:00:00",
+    "end_time": "2025-06-27T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0316",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Naveen Joshi",
+      "Arun Mishra",
+      "Ravi Shankar",
+      "Kiran Reddy"
+    ],
+    "worker_ids": [
+      "WRK-B04",
+      "WRK-B02",
+      "WRK-B05",
+      "WRK-B03"
+    ],
+    "start_time": "2025-06-27T06:00:00",
+    "end_time": "2025-06-27T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0319",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Ajay Pandey",
+      "Sunil Kumar",
+      "Vinod Saxena",
+      "Prakash Mehra"
+    ],
+    "worker_ids": [
+      "WRK-C03",
+      "WRK-C02",
+      "WRK-C04",
+      "WRK-C01"
+    ],
+    "start_time": "2025-06-27T06:00:00",
+    "end_time": "2025-06-27T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0322",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Santosh Mishra",
+      "Nitin Agarwal",
+      "Gaurav Bhatt",
+      "Pankaj Srivastava"
+    ],
+    "worker_ids": [
+      "WRK-D02",
+      "WRK-D01",
+      "WRK-D03",
+      "WRK-D05"
+    ],
+    "start_time": "2025-06-27T06:00:00",
+    "end_time": "2025-06-27T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0314",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Deepak Verma",
+      "Amit Patel",
+      "Sanjay Tiwari"
+    ],
+    "worker_ids": [
+      "WRK-A03",
+      "WRK-A01",
+      "WRK-A05"
+    ],
+    "start_time": "2025-06-27T14:00:00",
+    "end_time": "2025-06-27T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0317",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Naveen Joshi",
+      "Ravi Shankar",
+      "Arun Mishra",
+      "Manoj Dubey"
+    ],
+    "worker_ids": [
+      "WRK-B04",
+      "WRK-B05",
+      "WRK-B02",
+      "WRK-B01"
+    ],
+    "start_time": "2025-06-27T14:00:00",
+    "end_time": "2025-06-27T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0320",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Ajay Pandey",
+      "Rohit Chauhan",
+      "Vinod Saxena"
+    ],
+    "worker_ids": [
+      "WRK-C03",
+      "WRK-C05",
+      "WRK-C04"
+    ],
+    "start_time": "2025-06-27T14:00:00",
+    "end_time": "2025-06-27T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0323",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Gaurav Bhatt",
+      "Santosh Mishra",
+      "Pankaj Srivastava"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D03",
+      "WRK-D02",
+      "WRK-D05"
+    ],
+    "start_time": "2025-06-27T14:00:00",
+    "end_time": "2025-06-27T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0315",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Amit Patel",
+      "Suresh Yadav",
+      "Deepak Verma"
+    ],
+    "worker_ids": [
+      "WRK-A01",
+      "WRK-A02",
+      "WRK-A03"
+    ],
+    "start_time": "2025-06-27T22:00:00",
+    "end_time": "2025-06-28T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0318",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Kiran Reddy",
+      "Ravi Shankar",
+      "Arun Mishra"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B03",
+      "WRK-B05",
+      "WRK-B02"
+    ],
+    "start_time": "2025-06-27T22:00:00",
+    "end_time": "2025-06-28T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0321",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Sunil Kumar",
+      "Prakash Mehra",
+      "Rohit Chauhan",
+      "Ajay Pandey"
+    ],
+    "worker_ids": [
+      "WRK-C02",
+      "WRK-C01",
+      "WRK-C05",
+      "WRK-C03"
+    ],
+    "start_time": "2025-06-27T22:00:00",
+    "end_time": "2025-06-28T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0324",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Gaurav Bhatt",
+      "Hemant Jha",
+      "Nitin Agarwal"
+    ],
+    "worker_ids": [
+      "WRK-D03",
+      "WRK-D04",
+      "WRK-D01"
+    ],
+    "start_time": "2025-06-27T22:00:00",
+    "end_time": "2025-06-28T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0325",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Suresh Yadav",
+      "Sanjay Tiwari",
+      "Amit Patel"
+    ],
+    "worker_ids": [
+      "WRK-A02",
+      "WRK-A05",
+      "WRK-A01"
+    ],
+    "start_time": "2025-06-28T06:00:00",
+    "end_time": "2025-06-28T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0328",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Arun Mishra",
+      "Ravi Shankar",
+      "Kiran Reddy"
+    ],
+    "worker_ids": [
+      "WRK-B02",
+      "WRK-B05",
+      "WRK-B03"
+    ],
+    "start_time": "2025-06-28T06:00:00",
+    "end_time": "2025-06-28T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0331",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Rohit Chauhan",
+      "Sunil Kumar",
+      "Vinod Saxena"
+    ],
+    "worker_ids": [
+      "WRK-C05",
+      "WRK-C02",
+      "WRK-C04"
+    ],
+    "start_time": "2025-06-28T06:00:00",
+    "end_time": "2025-06-28T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0334",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Santosh Mishra",
+      "Pankaj Srivastava",
+      "Hemant Jha"
+    ],
+    "worker_ids": [
+      "WRK-D02",
+      "WRK-D05",
+      "WRK-D04"
+    ],
+    "start_time": "2025-06-28T06:00:00",
+    "end_time": "2025-06-28T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0326",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Amit Patel",
+      "Sanjay Tiwari",
+      "Deepak Verma",
+      "Suresh Yadav"
+    ],
+    "worker_ids": [
+      "WRK-A01",
+      "WRK-A05",
+      "WRK-A03",
+      "WRK-A02"
+    ],
+    "start_time": "2025-06-28T14:00:00",
+    "end_time": "2025-06-28T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0329",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Naveen Joshi",
+      "Arun Mishra",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B04",
+      "WRK-B02",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-28T14:00:00",
+    "end_time": "2025-06-28T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0332",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Sunil Kumar",
+      "Ajay Pandey",
+      "Vinod Saxena",
+      "Rohit Chauhan"
+    ],
+    "worker_ids": [
+      "WRK-C02",
+      "WRK-C03",
+      "WRK-C04",
+      "WRK-C05"
+    ],
+    "start_time": "2025-06-28T14:00:00",
+    "end_time": "2025-06-28T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0335",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Hemant Jha",
+      "Gaurav Bhatt",
+      "Pankaj Srivastava"
+    ],
+    "worker_ids": [
+      "WRK-D04",
+      "WRK-D03",
+      "WRK-D05"
+    ],
+    "start_time": "2025-06-28T14:00:00",
+    "end_time": "2025-06-28T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0327",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Sanjay Tiwari",
+      "Ramesh Gupta",
+      "Amit Patel"
+    ],
+    "worker_ids": [
+      "WRK-A05",
+      "WRK-A04",
+      "WRK-A01"
+    ],
+    "start_time": "2025-06-28T22:00:00",
+    "end_time": "2025-06-29T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0330",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Ravi Shankar",
+      "Kiran Reddy",
+      "Naveen Joshi",
+      "Arun Mishra"
+    ],
+    "worker_ids": [
+      "WRK-B05",
+      "WRK-B03",
+      "WRK-B04",
+      "WRK-B02"
+    ],
+    "start_time": "2025-06-28T22:00:00",
+    "end_time": "2025-06-29T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0333",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Ajay Pandey",
+      "Vinod Saxena",
+      "Rohit Chauhan",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C03",
+      "WRK-C04",
+      "WRK-C05",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-28T22:00:00",
+    "end_time": "2025-06-29T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0336",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Pankaj Srivastava",
+      "Nitin Agarwal",
+      "Santosh Mishra"
+    ],
+    "worker_ids": [
+      "WRK-D05",
+      "WRK-D01",
+      "WRK-D02"
+    ],
+    "start_time": "2025-06-28T22:00:00",
+    "end_time": "2025-06-29T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0337",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Suresh Yadav",
+      "Deepak Verma",
+      "Sanjay Tiwari"
+    ],
+    "worker_ids": [
+      "WRK-A02",
+      "WRK-A03",
+      "WRK-A05"
+    ],
+    "start_time": "2025-06-29T06:00:00",
+    "end_time": "2025-06-29T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0340",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Ravi Shankar",
+      "Kiran Reddy",
+      "Manoj Dubey",
+      "Arun Mishra"
+    ],
+    "worker_ids": [
+      "WRK-B05",
+      "WRK-B03",
+      "WRK-B01",
+      "WRK-B02"
+    ],
+    "start_time": "2025-06-29T06:00:00",
+    "end_time": "2025-06-29T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0343",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Ajay Pandey",
+      "Vinod Saxena",
+      "Rohit Chauhan"
+    ],
+    "worker_ids": [
+      "WRK-C03",
+      "WRK-C04",
+      "WRK-C05"
+    ],
+    "start_time": "2025-06-29T06:00:00",
+    "end_time": "2025-06-29T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0346",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Santosh Mishra",
+      "Hemant Jha",
+      "Nitin Agarwal"
+    ],
+    "worker_ids": [
+      "WRK-D02",
+      "WRK-D04",
+      "WRK-D01"
+    ],
+    "start_time": "2025-06-29T06:00:00",
+    "end_time": "2025-06-29T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0338",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Ramesh Gupta",
+      "Amit Patel",
+      "Sanjay Tiwari"
+    ],
+    "worker_ids": [
+      "WRK-A04",
+      "WRK-A01",
+      "WRK-A05"
+    ],
+    "start_time": "2025-06-29T14:00:00",
+    "end_time": "2025-06-29T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0341",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Kiran Reddy",
+      "Arun Mishra",
+      "Manoj Dubey"
+    ],
+    "worker_ids": [
+      "WRK-B03",
+      "WRK-B02",
+      "WRK-B01"
+    ],
+    "start_time": "2025-06-29T14:00:00",
+    "end_time": "2025-06-29T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0344",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Vinod Saxena",
+      "Rohit Chauhan",
+      "Ajay Pandey"
+    ],
+    "worker_ids": [
+      "WRK-C04",
+      "WRK-C05",
+      "WRK-C03"
+    ],
+    "start_time": "2025-06-29T14:00:00",
+    "end_time": "2025-06-29T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0347",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Santosh Mishra",
+      "Gaurav Bhatt",
+      "Nitin Agarwal",
+      "Hemant Jha"
+    ],
+    "worker_ids": [
+      "WRK-D02",
+      "WRK-D03",
+      "WRK-D01",
+      "WRK-D04"
+    ],
+    "start_time": "2025-06-29T14:00:00",
+    "end_time": "2025-06-29T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0339",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Deepak Verma",
+      "Amit Patel",
+      "Suresh Yadav",
+      "Ramesh Gupta"
+    ],
+    "worker_ids": [
+      "WRK-A03",
+      "WRK-A01",
+      "WRK-A02",
+      "WRK-A04"
+    ],
+    "start_time": "2025-06-29T22:00:00",
+    "end_time": "2025-06-30T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0342",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Kiran Reddy",
+      "Ravi Shankar",
+      "Naveen Joshi"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B03",
+      "WRK-B05",
+      "WRK-B04"
+    ],
+    "start_time": "2025-06-29T22:00:00",
+    "end_time": "2025-06-30T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0345",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Prakash Mehra",
+      "Rohit Chauhan",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C01",
+      "WRK-C05",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-29T22:00:00",
+    "end_time": "2025-06-30T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0348",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Hemant Jha",
+      "Pankaj Srivastava",
+      "Nitin Agarwal"
+    ],
+    "worker_ids": [
+      "WRK-D04",
+      "WRK-D05",
+      "WRK-D01"
+    ],
+    "start_time": "2025-06-29T22:00:00",
+    "end_time": "2025-06-30T06:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0349",
+    "shift_name": "Morning",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Ramesh Gupta",
+      "Amit Patel",
+      "Deepak Verma"
+    ],
+    "worker_ids": [
+      "WRK-A04",
+      "WRK-A01",
+      "WRK-A03"
+    ],
+    "start_time": "2025-06-30T06:00:00",
+    "end_time": "2025-06-30T14:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0352",
+    "shift_name": "Morning",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Arun Mishra",
+      "Manoj Dubey",
+      "Kiran Reddy",
+      "Ravi Shankar"
+    ],
+    "worker_ids": [
+      "WRK-B02",
+      "WRK-B01",
+      "WRK-B03",
+      "WRK-B05"
+    ],
+    "start_time": "2025-06-30T06:00:00",
+    "end_time": "2025-06-30T14:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0355",
+    "shift_name": "Morning",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Ajay Pandey",
+      "Prakash Mehra",
+      "Sunil Kumar"
+    ],
+    "worker_ids": [
+      "WRK-C03",
+      "WRK-C01",
+      "WRK-C02"
+    ],
+    "start_time": "2025-06-30T06:00:00",
+    "end_time": "2025-06-30T14:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0358",
+    "shift_name": "Morning",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Hemant Jha",
+      "Pankaj Srivastava",
+      "Gaurav Bhatt"
+    ],
+    "worker_ids": [
+      "WRK-D04",
+      "WRK-D05",
+      "WRK-D03"
+    ],
+    "start_time": "2025-06-30T06:00:00",
+    "end_time": "2025-06-30T14:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0350",
+    "shift_name": "Evening",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Suresh Yadav",
+      "Deepak Verma",
+      "Sanjay Tiwari"
+    ],
+    "worker_ids": [
+      "WRK-A02",
+      "WRK-A03",
+      "WRK-A05"
+    ],
+    "start_time": "2025-06-30T14:00:00",
+    "end_time": "2025-06-30T22:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0353",
+    "shift_name": "Evening",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Ravi Shankar",
+      "Manoj Dubey",
+      "Arun Mishra"
+    ],
+    "worker_ids": [
+      "WRK-B05",
+      "WRK-B01",
+      "WRK-B02"
+    ],
+    "start_time": "2025-06-30T14:00:00",
+    "end_time": "2025-06-30T22:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0356",
+    "shift_name": "Evening",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Prakash Mehra",
+      "Ajay Pandey",
+      "Rohit Chauhan"
+    ],
+    "worker_ids": [
+      "WRK-C01",
+      "WRK-C03",
+      "WRK-C05"
+    ],
+    "start_time": "2025-06-30T14:00:00",
+    "end_time": "2025-06-30T22:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0359",
+    "shift_name": "Evening",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Santosh Mishra",
+      "Nitin Agarwal",
+      "Gaurav Bhatt"
+    ],
+    "worker_ids": [
+      "WRK-D02",
+      "WRK-D01",
+      "WRK-D03"
+    ],
+    "start_time": "2025-06-30T14:00:00",
+    "end_time": "2025-06-30T22:00:00",
+    "zone": "Zone D"
+  },
+  {
+    "shift_id": "SHF-0351",
+    "shift_name": "Night",
+    "supervisor": "Rajesh Kumar",
+    "supervisor_id": "SUP-A01",
+    "workers": [
+      "Sanjay Tiwari",
+      "Deepak Verma",
+      "Amit Patel"
+    ],
+    "worker_ids": [
+      "WRK-A05",
+      "WRK-A03",
+      "WRK-A01"
+    ],
+    "start_time": "2025-06-30T22:00:00",
+    "end_time": "2025-07-01T06:00:00",
+    "zone": "Zone A"
+  },
+  {
+    "shift_id": "SHF-0354",
+    "shift_name": "Night",
+    "supervisor": "Anand Sharma",
+    "supervisor_id": "SUP-B01",
+    "workers": [
+      "Manoj Dubey",
+      "Naveen Joshi",
+      "Arun Mishra",
+      "Kiran Reddy"
+    ],
+    "worker_ids": [
+      "WRK-B01",
+      "WRK-B04",
+      "WRK-B02",
+      "WRK-B03"
+    ],
+    "start_time": "2025-06-30T22:00:00",
+    "end_time": "2025-07-01T06:00:00",
+    "zone": "Zone B"
+  },
+  {
+    "shift_id": "SHF-0357",
+    "shift_name": "Night",
+    "supervisor": "Vikram Singh",
+    "supervisor_id": "SUP-C01",
+    "workers": [
+      "Ajay Pandey",
+      "Rohit Chauhan",
+      "Vinod Saxena"
+    ],
+    "worker_ids": [
+      "WRK-C03",
+      "WRK-C05",
+      "WRK-C04"
+    ],
+    "start_time": "2025-06-30T22:00:00",
+    "end_time": "2025-07-01T06:00:00",
+    "zone": "Zone C"
+  },
+  {
+    "shift_id": "SHF-0360",
+    "shift_name": "Night",
+    "supervisor": "Priya Nair",
+    "supervisor_id": "SUP-D01",
+    "workers": [
+      "Nitin Agarwal",
+      "Gaurav Bhatt",
+      "Pankaj Srivastava",
+      "Hemant Jha"
+    ],
+    "worker_ids": [
+      "WRK-D01",
+      "WRK-D03",
+      "WRK-D05",
+      "WRK-D04"
+    ],
+    "start_time": "2025-06-30T22:00:00",
+    "end_time": "2025-07-01T06:00:00",
+    "zone": "Zone D"
+  }
+]
