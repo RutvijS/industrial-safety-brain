@@ -2,12 +2,14 @@ import { useState } from "react";
 import Home from "./pages/Home";
 import PlantOverview from "./pages/PlantOverview";
 import PlantStatePage from "./pages/PlantState";
+import RiskAnalysisPage from "./pages/RiskAnalysis";
 import "./App.css";
 
 const TABS = [
   { id: "chat", label: "Safety Chat", icon: "🛡️" },
   { id: "overview", label: "Plant Overview", icon: "🏭" },
   { id: "state", label: "Plant State", icon: "🧠" },
+  { id: "risk", label: "Risk Analysis", icon: "🔥" },
 ];
 
 function App() {
@@ -34,6 +36,7 @@ function App() {
       {activeTab === "chat" && <Home />}
       {activeTab === "overview" && <PlantOverview />}
       {activeTab === "state" && <PlantStatePage />}
+      {activeTab === "risk" && <RiskAnalysisPage />}
     </>
   );
 }

@@ -69,4 +69,18 @@ export const getPlantOverviewSummary = async () => {
   return data;
 };
 
+// ── Risk Analysis API ─────────────────────────────────────
+
+/** Run full plant risk analysis (all zones). */
+export const runRiskAnalysis = async () => {
+  const { data } = await api.post("/risk-analysis");
+  return data;
+};
+
+/** Run risk analysis for a single zone. */
+export const getZoneRiskAnalysis = async (zone) => {
+  const { data } = await api.get(`/risk-analysis/${encodeURIComponent(zone)}`);
+  return data;
+};
+
 export default api;

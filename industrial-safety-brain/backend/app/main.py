@@ -6,6 +6,7 @@ from app.config import settings
 from app.routes.chat import router as chat_router
 from app.routes.data import router as data_router
 from app.routes.plant_state import router as plant_state_router
+from app.routes.risk import router as risk_router
 
 app = FastAPI(
     title=settings.APP_TITLE,
@@ -28,6 +29,7 @@ app.add_middleware(
 app.include_router(chat_router)
 app.include_router(data_router)
 app.include_router(plant_state_router)
+app.include_router(risk_router)
 
 
 @app.get("/")
