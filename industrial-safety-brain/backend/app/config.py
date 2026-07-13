@@ -18,6 +18,11 @@ class Settings:
     # CORS
     FRONTEND_ORIGIN: str = os.getenv("FRONTEND_ORIGIN", "http://localhost:5173")
 
+    # Neo4j
+    NEO4J_URI: str = os.getenv("NEO4J_URI", "bolt://localhost:7687")
+    NEO4J_USER: str = os.getenv("NEO4J_USER", "neo4j")
+    NEO4J_PASSWORD: str = os.getenv("NEO4J_PASSWORD", "password")
+
     # App metadata
     APP_TITLE: str = "Industrial Safety Brain"
     APP_DESCRIPTION: str = "AI-powered Industrial Safety Intelligence API"

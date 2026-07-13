@@ -1,179 +1,187 @@
-# Industrial Safety Brain — Phase 1
+# 🛡️ Industrial Safety Brain
 
-AI-powered Industrial Safety Intelligence platform. This is the **Phase 1** foundation: a FastAPI backend integrated with Google Gemini and a React + Vite frontend with a chat interface.
+### AI-Powered Industrial Safety Intelligence Platform
+
+> A comprehensive, multi-agent AI platform that detects compound industrial risks in real-time, retrieves historical incident intelligence, maps regulatory compliance gaps, and orchestrates emergency response — all from a single unified dashboard.
 
 ---
 
-## Project Structure
+## 🎯 Problem Statement
+
+Industrial accidents kill **2.3 million workers globally every year** (ILO). In India alone, **over 1,100 major industrial accidents** were reported in a single year (DGFASLI). The root cause? **Fragmented safety systems** that monitor individual parameters in isolation.
+
+**Current industry pain points:**
+- Sensors monitor gas, temperature, pressure **independently** — no compound risk detection
+- Incident learnings are buried in PDF reports nobody reads
+- Regulatory compliance is checked manually once a year
+- Emergency response plans are static documents, not dynamic systems
+- No single platform connects risk → incidents → regulations → response
+
+---
+
+## 💡 Solution
+
+**Industrial Safety Brain** is an AI-powered platform that:
+
+1. **Detects compound risks** — identifies dangerous *combinations* of events (e.g., high gas + active hot work permit + expired maintenance = explosion risk)
+2. **Retrieves incident intelligence** — uses RAG to surface similar past incidents, near-misses, and lessons learned
+3. **Maps knowledge relationships** — builds a graph of equipment → zones → workers → hazards → regulations
+4. **Orchestrates AI agents** — 5 specialized agents analyze risk, incidents, compliance, and emergency response in sequence
+5. **Generates compliance reports** — automatically identifies regulatory violations with corrective actions
+6. **Creates emergency plans** — dynamic evacuation, PPE, medical, and isolation procedures based on live risk data
+
+---
+
+## ✨ Features
+
+| Feature | Description |
+|---------|-------------|
+| 🧠 **Unified Plant State** | Real-time aggregation of sensors, permits, maintenance, shifts, and incidents per zone |
+| 🔥 **Compound Risk Engine** | Detects 10+ compound risk patterns (gas + heat, pressure + vibration, etc.) with weighted scoring |
+| 📚 **Incident Intelligence (RAG)** | Semantic search over industrial documents, SOPs, and regulations using ChromaDB + Gemini |
+| 🗺️ **Safety Heatmap** | Interactive zone-by-zone risk visualization with drill-down details |
+| 🕸️ **Knowledge Graph** | Neo4j-powered graph with 11 node types and 12 relationship types |
+| 🤖 **Multi-Agent Orchestrator** | 5 specialized agents (Risk, Incident, KG, Compliance, Emergency) with fault tolerance |
+| 📋 **Compliance Intelligence** | Automated OISD, Factory Act, DGMS regulation checking with gap analysis |
+| 🚨 **Emergency Response** | Dynamic evacuation plans, PPE requirements, medical response, recovery checklists |
+| 📄 **Incident Reports** | Auto-generated, PDF-ready incident reports with evidence and executive summary |
+| 💬 **AI Safety Chat** | Natural language interface powered by Gemini for safety queries |
+
+---
+
+## 🏗️ Architecture
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    FRONTEND (React + Vite)                   │
+│  11 Pages: Chat │ Overview │ State │ Risk │ Intel │ Heatmap │
+│  KnowledgeGraph │ Agents │ Compliance │ Emergency │ Report  │
+└─────────────────────────┬───────────────────────────────────┘
+                          │ REST API (Axios)
+┌─────────────────────────▼───────────────────────────────────┐
+│                   BACKEND (FastAPI)                           │
+│                                                              │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌────────────┐  │
+│  │Plant State│  │   Risk   │  │Incident  │  │ Geospatial │  │
+│  │  Layer    │  │  Engine  │  │Intel(RAG)│  │  Service   │  │
+│  └────┬─────┘  └────┬─────┘  └────┬─────┘  └────────────┘  │
+│       │              │              │                         │
+│  ┌────▼──────────────▼──────────────▼────────────────────┐  │
+│  │           MULTI-AGENT ORCHESTRATOR                     │  │
+│  │  ┌─────┐ ┌──────┐ ┌────┐ ┌──────────┐ ┌───────────┐  │  │
+│  │  │Risk │ │Incid.│ │ KG │ │Compliance│ │Emergency  │  │  │
+│  │  │Agent│→│Agent │→│Agt │→│  Agent   │→│Resp Agent │  │  │
+│  │  └─────┘ └──────┘ └────┘ └──────────┘ └───────────┘  │  │
+│  └───────────────────────┬───────────────────────────────┘  │
+│                          │                                   │
+│  ┌───────────────────────▼───────────────────────────────┐  │
+│  │              RESPONSE AGGREGATOR + GEMINI              │  │
+│  └───────────────────────────────────────────────────────┘  │
+└──────────────────────────────────────────────────────────────┘
+                    │              │              │
+          ┌────────▼──┐   ┌──────▼─────┐  ┌────▼────┐
+          │  ChromaDB  │   │   Neo4j    │  │ Gemini  │
+          │(Vector DB) │   │(Graph DB)  │  │  (LLM)  │
+          └────────────┘   └────────────┘  └─────────┘
+```
+
+---
+
+## 🔧 Technology Stack
+
+| Layer | Technology |
+|-------|-----------|
+| **Frontend** | React 18, Vite, Vanilla CSS |
+| **Backend** | Python 3.10+, FastAPI, Pydantic |
+| **AI/LLM** | Google Gemini 2.0 Flash |
+| **Vector DB** | ChromaDB (in-process) |
+| **Graph DB** | Neo4j (bolt protocol) |
+| **Datasets** | Synthetic JSON (5 datasets, 4 zones) |
+
+---
+
+## 📁 Folder Structure
 
 ```
 industrial-safety-brain/
 ├── backend/
 │   ├── app/
-│   │   ├── main.py              # FastAPI application entry point
-│   │   ├── config.py            # Environment variable configuration
-│   │   ├── models/
-│   │   │   └── chat_models.py   # Pydantic request/response models
-│   │   ├── routes/
-│   │   │   └── chat.py          # POST /chat endpoint
-│   │   └── services/
-│   │       └── gemini_service.py # Gemini API integration
-│   ├── requirements.txt
-│   ├── .env.example
-│   └── .env                     # Your local env (not committed)
-└── frontend/
-    ├── src/
-    │   ├── components/
-    │   │   └── ChatBox.jsx      # Chat UI component
-    │   ├── pages/
-    │   │   └── Home.jsx         # Home page wrapper
-    │   ├── services/
-    │   │   └── api.js           # Axios HTTP client
-    │   ├── App.jsx              # Root component
-    │   ├── App.css              # Component styles
-    │   ├── index.css            # Global styles
-    │   └── main.jsx             # React entry point
-    ├── index.html
-    └── package.json
+│   │   ├── agents/          # 5 AI agents + orchestrator
+│   │   ├── models/          # 10 Pydantic schema files
+│   │   ├── routes/          # 10 API routers (25+ endpoints)
+│   │   ├── rag/             # Document loader, vector store, retriever
+│   │   └── services/        # 14 business logic services
+│   └── requirements.txt
+├── datasets/                # 5 synthetic industrial datasets
+├── frontend/
+│   └── src/
+│       ├── pages/           # 11 page components
+│       ├── components/      # Reusable UI components
+│       └── services/        # API client
+└── README.md
 ```
 
 ---
 
-## File Explanations
+## 🚀 Installation & Running
 
-| File | Purpose |
-|------|---------|
-| `backend/app/main.py` | Creates the FastAPI app, configures CORS, mounts the chat router, and exposes a health-check endpoint at `GET /`. |
-| `backend/app/config.py` | Loads `GEMINI_API_KEY` from `.env` using `python-dotenv`. Provides a `Settings` class with validation. |
-| `backend/app/models/chat_models.py` | Defines `ChatRequest` and `ChatResponse` Pydantic models used by the `/chat` endpoint. |
-| `backend/app/routes/chat.py` | Defines the `POST /chat` route. Delegates to `GeminiService` and returns the AI response. |
-| `backend/app/services/gemini_service.py` | Wraps the Google Gemini SDK. Initializes the model with a safety-expert system prompt and exposes `generate_response()`. |
-| `frontend/src/services/api.js` | Axios instance pointed at `localhost:8000`. Exports a `sendMessage()` helper. |
-| `frontend/src/components/ChatBox.jsx` | Text input + Send button + conversation display with typing indicator and error handling. |
-| `frontend/src/pages/Home.jsx` | Page wrapper that renders the header and `ChatBox`. |
-| `frontend/src/App.jsx` | Root React component — renders `Home`. |
-
----
-
-## Installation
-
-### Prerequisites
-
-- **Python 3.10+**
-- **Node.js 18+**
-- **npm 9+**
-- A **Google Gemini API key** — get one at [https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey)
-
-### Backend Setup
-
+### Backend
 ```bash
 cd backend
-
-# Create and activate a virtual environment
-python -m venv venv
-
-# Windows
-venv\Scripts\activate
-
-# macOS/Linux
-# source venv/bin/activate
-
-# Install dependencies
+python -m venv venv && venv\Scripts\activate
 pip install -r requirements.txt
-
-# Create your .env file
-copy .env.example .env
-# Then edit .env and add your GEMINI_API_KEY
-```
-
-### Frontend Setup
-
-```bash
-cd frontend
-
-# Install dependencies
-npm install
-```
-
----
-
-## Running the Application
-
-### Start Backend (Terminal 1)
-
-```bash
-cd backend
-venv\Scripts\activate
+# Create .env with: GEMINI_API_KEY=your_key
 uvicorn app.main:app --reload
 ```
 
-The API will be available at **http://localhost:8000**.
-
-### Start Frontend (Terminal 2)
-
+### Frontend
 ```bash
 cd frontend
-npm run dev
+npm install && npm run dev
 ```
 
-The UI will be available at **http://localhost:5173**.
-
----
-
-## API Reference
-
-### Health Check
-
-```
-GET /
-```
-
-Response:
-```json
-{
-  "status": "ok",
-  "service": "Industrial Safety Brain API"
-}
-```
-
-### Chat
-
-```
-POST /chat
-Content-Type: application/json
-
-{
-  "message": "What PPE is required for welding?"
-}
-```
-
-Response:
-```json
-{
-  "response": "For welding operations, the following PPE is required..."
-}
+### Optional: Neo4j
+```bash
+# Install Neo4j Desktop or Docker
+# Set NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD in backend/.env
 ```
 
 ---
 
-## Testing Steps
+## 📸 Screenshots
 
-1. **Health check** — Open http://localhost:8000 in a browser. You should see the JSON health response.
-2. **API docs** — Open http://localhost:8000/docs to see the interactive Swagger UI.
-3. **Frontend loads** — Open http://localhost:5173. You should see the SafetyBrain chat interface.
-4. **Send a message** — Type a safety question and click Send. The AI response should appear below.
-5. **Empty message** — Try sending an empty message. The Send button should be disabled.
-6. **Backend down** — Stop the backend and send a message. An error message should appear.
+> *Screenshots of each module to be added from live demo*
+
+| Module | Screenshot |
+|--------|-----------|
+| Plant State Dashboard | *[screenshot]* |
+| Risk Analysis | *[screenshot]* |
+| Safety Heatmap | *[screenshot]* |
+| Multi-Agent Analysis | *[screenshot]* |
+| Compliance Report | *[screenshot]* |
+| Emergency Response Plan | *[screenshot]* |
 
 ---
 
-## Common Errors and Fixes
+## 🔮 Future Improvements
 
-| Error | Cause | Fix |
-|-------|-------|-----|
-| `GEMINI_API_KEY is not set` | Missing `.env` file or empty key | Copy `.env.example` to `.env` and add your API key |
-| `ModuleNotFoundError: No module named 'fastapi'` | Dependencies not installed | Run `pip install -r requirements.txt` inside the virtual environment |
-| `CORS error` in browser console | Backend not running or wrong port | Ensure the backend is running on port 8000 |
-| `Network Error` on Send | Backend not reachable | Start the backend with `uvicorn app.main:app --reload` |
-| `429 Resource Exhausted` | Gemini API rate limit | Wait a minute and retry, or check your API quota |
-| Port 8000 already in use | Another process on that port | Use `uvicorn app.main:app --reload --port 8001` and update `api.js` accordingly |
+- **Real-time sensor integration** via MQTT/OPC-UA
+- **Mobile app** for field workers
+- **Predictive maintenance** using ML on sensor trends
+- **Automated regulatory reporting** to PESO/DGFASLI
+- **Multi-plant support** with role-based access
+- **Digital twin** integration for 3D visualization
+- **Voice alerts** for critical compound risks
+
+---
+
+## 👥 Team
+
+| Name | Role |
+|------|------|
+| *[Team Member 1]* | *[Role]* |
+| *[Team Member 2]* | *[Role]* |
+
+---
+
+*Built for the ET Hackathon 2026*
