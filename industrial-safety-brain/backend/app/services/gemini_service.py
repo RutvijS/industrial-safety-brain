@@ -33,6 +33,7 @@ class GeminiService:
 
     def __init__(self) -> None:
         self._model = None
+        self.call_count: int = 0  # Track total Gemini calls for verification
 
     def _init_model(self) -> None:
         """Configure the SDK and create the model on first use."""
@@ -57,6 +58,12 @@ class GeminiService:
         """
         if self._model is None:
             self._init_model()
+
+        self.call_count += 1
+        logger.info(
+            "Gemini API call #%d (prompt length: %d chars)",
+            self.call_count, len(message),
+        )
 
         last_error = None
         for attempt in range(1, MAX_RETRIES + 1):

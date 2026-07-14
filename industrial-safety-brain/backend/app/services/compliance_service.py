@@ -289,26 +289,16 @@ class ComplianceService:
     async def _generate_summary(
         self, zone, meta, assessment, violated, compliant, actions, score
     ) -> str:
-        """Generate audit summary using Gemini."""
-        try:
-            from app.services.gemini_service import gemini_service
+        """Generate deterministic audit summary.
 
-            prompt = (
-                f"Write a 3-sentence compliance audit summary for {meta.get('zone_name', zone)}.\n"
-                f"Risk Level: {assessment.overall_risk} ({assessment.risk_score}/100)\n"
-                f"Compliance Score: {score}/100\n"
-                f"Violations: {len(violated)}\n"
-                f"Compliant: {len(compliant)}\n"
-                f"Corrective Actions: {len(actions)}\n"
-                f"Focus on the most critical findings and required actions."
-            )
-            return await gemini_service.generate_response(prompt)
-        except Exception:
-            return (
-                f"Compliance audit for {meta.get('zone_name', zone)}: "
-                f"Score {score}/100. {len(violated)} violations found. "
-                f"{len(actions)} corrective actions required."
-            )
+        LLM-powered summaries are now handled by LLMSummaryService.
+        This returns a structured fallback summary only.
+        """
+        return (
+            f"Compliance audit for {meta.get('zone_name', zone)}: "
+            f"Score {score}/100. {len(violated)} violations found. "
+            f"{len(actions)} corrective actions required."
+        )
 
 
 # Singleton

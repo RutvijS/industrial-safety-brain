@@ -160,15 +160,9 @@ class IncidentIntelligenceService:
         # Step 5: Format citations
         citations = format_citations(all_docs)
 
-        # Step 6: Optional Gemini explanation
+        # Step 6: LLM explanation is now handled by LLMSummaryService.
+        # This service returns structured data only.
         explanation = None
-        if include_explanation:
-            try:
-                from app.services.gemini_service import gemini_service
-                prompt = build_prompt(assessment, all_docs)
-                explanation = await gemini_service.generate_response(prompt)
-            except Exception as e:
-                explanation = f"Explanation unavailable: {str(e)}"
 
         return IncidentIntelligenceResponse(
             zone=assessment.zone,

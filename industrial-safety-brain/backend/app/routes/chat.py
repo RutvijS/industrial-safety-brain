@@ -1,7 +1,7 @@
 # pyrefly: ignore [missing-import]
 from fastapi import APIRouter, HTTPException
 from app.models.chat_models import ChatRequest, ChatResponse, ErrorResponse
-from app.services.gemini_service import gemini_service
+from app.services.llm_summary_service import llm_summary_service
 
 router = APIRouter(tags=["Chat"])
 
@@ -16,12 +16,12 @@ router = APIRouter(tags=["Chat"])
     },
 )
 async def chat(request: ChatRequest) -> ChatResponse:
-    """Process a chat message through Gemini and return the AI response.
+    """Process a chat message through LLMSummaryService and return the AI response.
 
-    Architecture: Route → Service → Gemini API
+    Architecture: Route → LLMSummaryService → GeminiService → Gemini API
     """
     try:
-        ai_response = await gemini_service.generate_response(request.message)
+        ai_response = await llm_summary_service.chat(request.message)
         return ChatResponse(response=ai_response)
 
     except ValueError as e:

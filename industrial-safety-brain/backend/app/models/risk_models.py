@@ -77,4 +77,8 @@ class PlantRiskAssessment(BaseModel):
     zone_assessments: List[ZoneRiskAssessment] = Field(default_factory=list)
     total_compound_risks: int = 0
     total_recommendations: int = 0
+    llm_summary: Optional[str] = Field(
+        default=None,
+        description="Unified executive summary from LLMSummaryService (single Gemini call)",
+    )
     analyzed_at: str = Field(description="ISO-8601 timestamp")
