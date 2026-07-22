@@ -123,6 +123,15 @@ async def handle_unhandled_exception(request: Request, exc: Exception):
     )
 
 
+# ── Startup Seed ───────────────────────────────────────────
+
+@app.on_event("startup")
+async def seed_vector_store():
+    """Seed ChromaDB with incident data on first launch."""
+    from app.rag.seed_documents import seed_if_empty
+    seed_if_empty()
+
+
 @app.get("/")
 async def root() -> dict:
     """Root endpoint — confirms the API is reachable."""

@@ -35,6 +35,9 @@ logger = logging.getLogger("safety_brain.llm_summary")
 # Cache TTL in seconds (5 minutes)
 CACHE_TTL_SECONDS = 300
 
+# Chat cache TTL (30 seconds — shorter to keep conversations responsive)
+CHAT_CACHE_TTL_SECONDS = 30
+
 
 # ── Prompt Templates ──────────────────────────────────────────
 
@@ -113,8 +116,9 @@ Always prioritize worker safety in your responses."""
 class _SummaryCache:
     """Simple in-memory cache keyed by content hash with TTL."""
 
-    def __init__(self) -> None:
+    def __init__(self, ttl: int = CACHE_TTL_SECONDS) -> None:
         self._store: Dict[str, tuple] = {}  # hash -> (response, timestamp)
+        self._ttl = ttl
 
     def get(self, key: str) -> Optional[str]:
         """Return cached response if exists and not expired."""
@@ -122,7 +126,7 @@ class _SummaryCache:
         if entry is None:
             return None
         response, ts = entry
-        if time.time() - ts > CACHE_TTL_SECONDS:
+        if time.time() - ts > self._ttl:
             del self._store[key]
             return None
         logger.info("LLM cache HIT for key=%s", key[:12])
@@ -346,7 +350,8 @@ class LLMSummaryService:
     """
 
     def __init__(self) -> None:
-        self._cache = _SummaryCache()
+        self._cache = _SummaryCache(ttl=CACHE_TTL_SECONDS)
+        self._chat_cache = _SummaryCache(ttl=CHAT_CACHE_TTL_SECONDS)
 
     async def summarize(
         self,
@@ -393,7 +398,7 @@ class LLMSummaryService:
         logger.info("LLM Summary Service: calling Gemini (1 call)")
         try:
             from app.services.gemini_service import gemini_service
-            response = await gemini_service.generate_response(prompt)
+            response = await gemini_service.generate_response(prompt, caller="summarize")
         except Exception as e:
             logger.error("LLM Summary Service: Gemini call failed: %s", e)
             return self._fallback_summary(
@@ -454,8 +459,8 @@ class LLMSummaryService:
     async def chat(self, message: str) -> str:
         """Process a chat message through the LLM.
 
-        This is a pass-through to gemini_service for conversational queries.
-        Kept here for consistency and future enhancements (e.g., context injection).
+        Includes short-lived caching (30s) to prevent duplicate calls
+        when the same message is sent rapidly.
 
         Args:
             message: User's chat message.
@@ -463,8 +468,18 @@ class LLMSummaryService:
         Returns:
             AI response string.
         """
+        # Check chat cache to avoid duplicate calls for identical messages
+        cache_key = _compute_hash(message)
+        cached = self._chat_cache.get(cache_key)
+        if cached is not None:
+            return cached
+
         from app.services.gemini_service import gemini_service
-        return await gemini_service.generate_response(message)
+        response = await gemini_service.generate_response(message, caller="chat")
+
+        # Cache with short TTL
+        self._chat_cache.put(cache_key, response)
+        return response
 
     @staticmethod
     def _fallback_summary(
@@ -503,9 +518,10 @@ class LLMSummaryService:
         return " ".join(parts)
 
     def clear_cache(self) -> None:
-        """Clear the summary cache."""
+        """Clear the summary and chat caches."""
         self._cache.clear()
-        logger.info("LLM Summary cache cleared.")
+        self._chat_cache.clear()
+        logger.info("LLM Summary and chat caches cleared.")
 
 
 # Singleton
