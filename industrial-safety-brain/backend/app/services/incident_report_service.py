@@ -146,19 +146,32 @@ class IncidentReportService:
         ]
 
     async def _generate_summary(self, zone, meta, assessment, risks, regulations) -> str:
-        """Generate executive summary with Gemini."""
+        """Generate executive summary via LLMSummaryService (ONE Gemini call)."""
         try:
-            from app.services.gemini_service import gemini_service
+            from app.services.llm_summary_service import llm_summary_service
 
-            prompt = (
-                f"Write a 4-sentence executive summary for an incident report.\n"
-                f"Zone: {meta.get('zone_name', zone)}\n"
-                f"Risk: {assessment.overall_risk} ({assessment.risk_score}/100)\n"
-                f"Compound Risks: {len(risks)}\n"
-                f"Regulations: {', '.join(r.get('regulation','') for r in regulations)}\n"
-                f"Be factual and actionable. This is for plant management."
+            risk_data = {
+                "zone": zone,
+                "zone_name": meta.get("zone_name", zone),
+                "overall_risk": assessment.overall_risk,
+                "risk_score": assessment.risk_score,
+                "detected_compound_risks": risks,
+                "risk_factors": [
+                    {"name": f.name, "raw_value": f.raw_value, "status": f.status}
+                    for f in assessment.risk_factors
+                ],
+            }
+            compliance_data = {
+                "violated_regulations": [
+                    {"regulation": r.get("regulation", ""), "severity": "High"}
+                    for r in regulations
+                ],
+                "total_findings": len(regulations),
+            }
+            return await llm_summary_service.summarize(
+                risk_data=risk_data,
+                compliance_data=compliance_data,
             )
-            return await gemini_service.generate_response(prompt)
         except Exception:
             return (
                 f"Incident report for {meta.get('zone_name', zone)}: "

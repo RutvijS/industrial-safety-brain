@@ -32,7 +32,6 @@ from app.services.risk_config import (
     COMPOUND_RULES,
     CONFIDENCE_PER_EVIDENCE,
     FACTOR_WEIGHTS,
-    GEMINI_EXPLANATION_PROMPT,
     HAZARD_LEVELS,
     HIGH_RISK_PERMIT_TYPES,
     RISK_LEVELS,
@@ -560,46 +559,9 @@ class RiskAssessmentBuilder:
             analyzed_at=datetime.utcnow().isoformat(),
         )
 
-    async def analyze_zone_with_explanation(self, zone: ZoneState) -> ZoneRiskAssessment:
-        """Run analysis + Gemini explanation."""
-        assessment = self.analyze_zone(zone)
-
-        # Build Gemini prompt from structured data
-        try:
-            from app.services.gemini_service import gemini_service
-
-            detected_str = "\n".join(
-                f"- {d.name} (severity: {d.severity}): {d.description}"
-                for d in assessment.detected_compound_risks
-            ) or "None detected"
-
-            factors_str = "\n".join(
-                f"- {f.name}: {f.raw_value} (score: {f.normalized_score}/100, status: {f.status})"
-                for f in assessment.risk_factors
-            )
-
-            evidence_str = "\n".join(
-                f"- [{e.source}] {e.detail}"
-                for e in assessment.supporting_evidence
-            )
-
-            prompt = GEMINI_EXPLANATION_PROMPT.format(
-                zone=f"{assessment.zone} ({assessment.zone_name})",
-                risk_level=assessment.overall_risk,
-                risk_score=assessment.risk_score,
-                hazard_level=assessment.hazard_level,
-                detected_risks=detected_str,
-                risk_factors=factors_str,
-                evidence=evidence_str,
-            )
-
-            explanation = await gemini_service.generate_response(prompt)
-            assessment.gemini_explanation = explanation
-        except Exception:
-            # Gemini failure should never break the assessment
-            assessment.gemini_explanation = "Explanation unavailable -- Gemini service error."
-
-        return assessment
+    # NOTE: analyze_zone_with_explanation() has been removed.
+    # Gemini explanations are now handled by LLMSummaryService
+    # which calls Gemini ONCE for the entire workflow.
 
 
 # Singleton

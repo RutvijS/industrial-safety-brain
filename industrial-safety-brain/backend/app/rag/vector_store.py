@@ -49,11 +49,10 @@ class VectorStore:
         persist_dir = os.path.normpath(CHROMA_PERSIST_DIR)
         os.makedirs(persist_dir, exist_ok=True)
 
-        self._client = chromadb.Client(ChromaSettings(
-            chroma_db_impl="duckdb+parquet",
-            persist_directory=persist_dir,
-            anonymized_telemetry=False,
-        ))
+        self._client = chromadb.PersistentClient(
+            path=persist_dir,
+            settings=ChromaSettings(anonymized_telemetry=False),
+        )
 
         self._collection = self._client.get_or_create_collection(
             name=COLLECTION_NAME,
